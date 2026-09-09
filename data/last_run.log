@@ -1,2 +1,10 @@
-AUTH ERROR 401 from seats.aero — check the API key / Pro subscription. Body: bad_partner_token
-monitor exited 1
+[Outbound RDU -> GLA/EDI] 0 availability rows from cached search
+[Outbound RDU -> GLA/EDI] 0 options pass filters
+[Return GLA/EDI -> RDU] 0 availability rows from cached search
+[Return GLA/EDI -> RDU] 0 options pass filters
+[cash outbound|economy] 12 itineraries; lowest=444
+[cash return|economy] 13 itineraries; lowest=955
+[cash roundtrip|economy] 10 itineraries; lowest=955
+[cash outbound|business] 11 itineraries; lowest=2986
+[cash return|business] 11 itineraries; lowest=2282
+[cash roundtrip|business] 11 itineraries; lowest=3522

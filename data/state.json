@@ -1,0 +1,309 @@
+{
+  "checked_at": "2026-09-09T20:28:57.989762+00:00",
+  "options": {},
+  "lowest": {},
+  "cash": {
+    "outbound|economy": {
+      "lowest": {
+        "leg": "outbound",
+        "cabin": "economy",
+        "price": 444,
+        "origin": "RDU",
+        "destination": "EDI",
+        "departs_at": "2027-07-09 18:10",
+        "arrives_at": "2027-07-10 10:40",
+        "airlines": [
+          "Air France"
+        ],
+        "flight_numbers": "AF 75, AF 1686",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "CDG",
+            "hours": 1.83
+          }
+        ],
+        "total_duration_min": 690
+      },
+      "lowest_clean": {
+        "leg": "outbound",
+        "cabin": "economy",
+        "price": 444,
+        "origin": "RDU",
+        "destination": "EDI",
+        "departs_at": "2027-07-09 18:10",
+        "arrives_at": "2027-07-10 10:40",
+        "airlines": [
+          "Air France"
+        ],
+        "flight_numbers": "AF 75, AF 1686",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "CDG",
+            "hours": 1.83
+          }
+        ],
+        "total_duration_min": 690
+      },
+      "count": 12,
+      "error": null
+    },
+    "return|economy": {
+      "lowest": {
+        "leg": "return",
+        "cabin": "economy",
+        "price": 955,
+        "origin": "GLA",
+        "destination": "RDU",
+        "departs_at": "2027-07-19 09:35",
+        "arrives_at": "2027-07-19 18:55",
+        "airlines": [
+          "Aer Lingus"
+        ],
+        "flight_numbers": "EI 3523, EI 85",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "DUB",
+            "hours": 4.58
+          }
+        ],
+        "total_duration_min": 860
+      },
+      "lowest_clean": {
+        "leg": "return",
+        "cabin": "economy",
+        "price": 1004,
+        "origin": "GLA",
+        "destination": "RDU",
+        "departs_at": "2027-07-19 12:00",
+        "arrives_at": "2027-07-19 18:55",
+        "airlines": [
+          "Aer Lingus"
+        ],
+        "flight_numbers": "EI 3223, EI 85",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "DUB",
+            "hours": 2.25
+          }
+        ],
+        "total_duration_min": 715
+      },
+      "count": 13,
+      "error": null
+    },
+    "roundtrip|economy": {
+      "lowest": {
+        "leg": "roundtrip",
+        "cabin": "economy",
+        "price": 955,
+        "origin": "RDU",
+        "destination": "EDI",
+        "departs_at": "2027-07-09 13:10",
+        "arrives_at": "2027-07-10 07:20",
+        "airlines": [
+          "Air Canada"
+        ],
+        "flight_numbers": "AC 8837, AC 806",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "YYZ",
+            "hours": 4.78
+          }
+        ],
+        "total_duration_min": 790
+      },
+      "lowest_clean": {
+        "leg": "roundtrip",
+        "cabin": "economy",
+        "price": 1030,
+        "origin": "RDU",
+        "destination": "EDI",
+        "departs_at": "2027-07-09 16:00",
+        "arrives_at": "2027-07-10 07:40",
+        "airlines": [
+          "Air Canada"
+        ],
+        "flight_numbers": "AC 8672, AC 936",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "YUL",
+            "hours": 1.82
+          }
+        ],
+        "total_duration_min": 640
+      },
+      "count": 10,
+      "error": null
+    },
+    "outbound|business": {
+      "lowest": {
+        "leg": "outbound",
+        "cabin": "business",
+        "price": 2986,
+        "origin": "RDU",
+        "destination": "GLA",
+        "departs_at": "2027-07-09 20:30",
+        "arrives_at": "2027-07-10 13:25",
+        "airlines": [
+          "Icelandair"
+        ],
+        "flight_numbers": "FI 820, FI 432",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "KEF",
+            "hours": 3.5
+          }
+        ],
+        "total_duration_min": 715
+      },
+      "lowest_clean": {
+        "leg": "outbound",
+        "cabin": "business",
+        "price": 3820,
+        "origin": "RDU",
+        "destination": "EDI",
+        "departs_at": "2027-07-09 16:00",
+        "arrives_at": "2027-07-10 07:40",
+        "airlines": [
+          "Air Canada"
+        ],
+        "flight_numbers": "AC 8672, AC 936",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "YUL",
+            "hours": 1.82
+          }
+        ],
+        "total_duration_min": 640
+      },
+      "count": 11,
+      "error": null
+    },
+    "return|business": {
+      "lowest": {
+        "leg": "return",
+        "cabin": "business",
+        "price": 2282,
+        "origin": "GLA",
+        "destination": "RDU",
+        "departs_at": "2027-07-19 14:20",
+        "arrives_at": "2027-07-20 19:30",
+        "airlines": [
+          "Icelandair"
+        ],
+        "flight_numbers": "FI 431, FI 821",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "KEF",
+            "hours": 25.0
+          }
+        ],
+        "total_duration_min": 2050
+      },
+      "lowest_clean": {
+        "leg": "return",
+        "cabin": "business",
+        "price": 2751,
+        "origin": "GLA",
+        "destination": "RDU",
+        "departs_at": "2027-07-19 12:00",
+        "arrives_at": "2027-07-19 18:55",
+        "airlines": [
+          "Aer Lingus"
+        ],
+        "flight_numbers": "EI 3223, EI 85",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "DUB",
+            "hours": 2.25
+          }
+        ],
+        "total_duration_min": 715
+      },
+      "count": 11,
+      "error": null
+    },
+    "roundtrip|business": {
+      "lowest": {
+        "leg": "roundtrip",
+        "cabin": "business",
+        "price": 3522,
+        "origin": "RDU",
+        "destination": "GLA",
+        "departs_at": "2027-07-09 20:30",
+        "arrives_at": "2027-07-10 13:25",
+        "airlines": [
+          "Icelandair"
+        ],
+        "flight_numbers": "FI 820, FI 432",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "KEF",
+            "hours": 3.5
+          }
+        ],
+        "total_duration_min": 715
+      },
+      "lowest_clean": {
+        "leg": "roundtrip",
+        "cabin": "business",
+        "price": 5631,
+        "origin": "RDU",
+        "destination": "EDI",
+        "departs_at": "2027-07-09 16:00",
+        "arrives_at": "2027-07-10 07:40",
+        "airlines": [
+          "Air Canada"
+        ],
+        "flight_numbers": "AC 8672, AC 936",
+        "stops": 1,
+        "layovers": [
+          {
+            "airport": "YUL",
+            "hours": 1.82
+          }
+        ],
+        "total_duration_min": 640
+      },
+      "count": 11,
+      "error": null
+    }
+  },
+  "cash_alltime_low": {
+    "outbound|economy": 444,
+    "return|economy": 955,
+    "roundtrip|economy": 955,
+    "outbound|business": 2986,
+    "return|business": 2282,
+    "roundtrip|business": 3522
+  },
+  "good_deal_cpp": {},
+  "history": [
+    {
+      "at": "2026-09-09T20:28:57.989786+00:00",
+      "n_options": 0,
+      "n_new": 0,
+      "n_gone": 0,
+      "n_drops": 0,
+      "cash_lowest": {
+        "outbound|economy": 444,
+        "return|economy": 955,
+        "roundtrip|economy": 955,
+        "outbound|business": 2986,
+        "return|business": 2282,
+        "roundtrip|business": 3522
+      }
+    }
+  ]
+}
