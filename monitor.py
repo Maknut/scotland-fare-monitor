@@ -52,24 +52,31 @@ CABIN_NAMES = {"economy": "Economy", "premium": "Premium Economy", "business": "
 
 
 # ---------------------------------------------------------------- HTTP ----
+_AUTH_STYLE = {"prefix": ""}  # seats.aero docs: raw key in Partner-Authorization. We fall back to "Bearer " on 401.
+
+
 def api_get(path, params, api_key, retries=3):
     url = f"{API_BASE}{path}"
     if params:
         url += "?" + urllib.parse.urlencode(params, doseq=False)
-    req = urllib.request.Request(url, headers={
-        "Partner-Authorization": f"Bearer {api_key}",
-        "Accept": "application/json",
-        "User-Agent": "eric-scotland-award-monitor/1.0",
-    })
     last_err = None
     for attempt in range(retries):
+        req = urllib.request.Request(url, headers={
+            "Partner-Authorization": f"{_AUTH_STYLE['prefix']}{api_key}",
+            "Accept": "application/json",
+            "User-Agent": "eric-scotland-award-monitor/1.0",
+        })
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 return json.load(resp)
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", "replace")[:500]
             if e.code in (401, 403):
-                raise SystemExit(f"AUTH ERROR {e.code} from seats.aero — check the API key / Pro subscription. Body: {body}")
+                if _AUTH_STYLE["prefix"] == "":
+                    _AUTH_STYLE["prefix"] = "Bearer "   # retry once with the other header style
+                    continue
+                raise SystemExit(f"AUTH ERROR {e.code} from seats.aero — tried both raw and Bearer forms of Partner-Authorization. "
+                                 f"Check the key at https://seats.aero/settings (API tab) and that the account still has Pro. Body: {body}")
             if e.code == 404:
                 return None
             last_err = f"HTTP {e.code}: {body}"
