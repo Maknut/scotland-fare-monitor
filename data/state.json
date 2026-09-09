@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-09T20:28:57.989762+00:00",
+  "checked_at": "2026-09-09T20:29:22.246900+00:00",
   "options": {},
   "lowest": {},
   "cash": {
@@ -292,6 +292,21 @@
   "history": [
     {
       "at": "2026-09-09T20:28:57.989786+00:00",
+      "n_options": 0,
+      "n_new": 0,
+      "n_gone": 0,
+      "n_drops": 0,
+      "cash_lowest": {
+        "outbound|economy": 444,
+        "return|economy": 955,
+        "roundtrip|economy": 955,
+        "outbound|business": 2986,
+        "return|business": 2282,
+        "roundtrip|business": 3522
+      }
+    },
+    {
+      "at": "2026-09-09T20:29:22.246923+00:00",
       "n_options": 0,
       "n_new": 0,
       "n_gone": 0,
