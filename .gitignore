@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/run.log
+data/last_run_changed

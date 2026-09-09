@@ -1,0 +1,53 @@
+name: Scotland award + cash fare monitor
+
+on:
+  schedule:
+    - cron: "30 10 * * *"     # 06:30 America/New_York (EDT) daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run monitor
+        id: run
+        env:
+          SEATSAERO_API_KEY: ${{ secrets.SEATSAERO_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: |
+          mkdir -p data
+          python3 monitor.py --state data/state.json --config config.json > data/report.md 2> data/run.log || { cat data/run.log; exit 1; }
+          echo "changed=$(cat data/last_run_changed 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+          echo "---- run log ----"; cat data/run.log
+          echo "---- report ----"; cat data/report.md
+
+      - name: Commit state
+        run: |
+          git config user.name "fare-monitor[bot]"
+          git config user.email "fare-monitor@users.noreply.github.com"
+          git add data/state.json data/report.md
+          git commit -m "monitor: $(date -u +%Y-%m-%dT%H:%MZ) changed=${{ steps.run.outputs.changed }}" || echo "nothing to commit"
+          git push
+
+      - name: Open issue on change
+        if: steps.run.outputs.changed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="✈️ Scotland fares: changes $(date -u +%Y-%m-%d)"
+          gh issue create --title "$title" --body-file data/report.md --label "fare-alert" 2>/dev/null \
+            || gh issue create --title "$title" --body-file data/report.md
