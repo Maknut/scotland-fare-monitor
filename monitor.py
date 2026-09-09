@@ -92,9 +92,11 @@ def api_get(path, params, api_key, retries=3):
 
 def cached_search(cfg_search, api_key):
     """Return list of availability objects for one search (single date)."""
+    # award_origins/award_destinations widen the points search to hubs seats.aero actually caches
+    # (RDU->GLA/EDI has no cached data); cash searches keep using origins/destinations.
     params = {
-        "origin_airport": ",".join(cfg_search["origins"]),
-        "destination_airport": ",".join(cfg_search["destinations"]),
+        "origin_airport": ",".join(cfg_search.get("award_origins") or cfg_search["origins"]),
+        "destination_airport": ",".join(cfg_search.get("award_destinations") or cfg_search["destinations"]),
         "start_date": cfg_search["date"],
         "end_date": cfg_search["date"],
         "take": 1000,

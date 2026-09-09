@@ -1,20 +1,65 @@
 {
   "searches": [
-    {"label": "Outbound RDU -> GLA/EDI", "origins": ["RDU"], "destinations": ["GLA", "EDI"], "date": "2027-07-09"},
-    {"label": "Return GLA/EDI -> RDU", "origins": ["GLA", "EDI"], "destinations": ["RDU"], "date": "2027-07-19"}
+    {
+      "label": "Outbound RDU -> GLA/EDI",
+      "origins": [
+        "RDU"
+      ],
+      "destinations": [
+        "GLA",
+        "EDI"
+      ],
+      "date": "2027-07-09",
+      "award_destinations": [
+        "GLA",
+        "EDI",
+        "LHR",
+        "DUB",
+        "MAN"
+      ]
+    },
+    {
+      "label": "Return GLA/EDI -> RDU",
+      "origins": [
+        "GLA",
+        "EDI"
+      ],
+      "destinations": [
+        "RDU"
+      ],
+      "date": "2027-07-19",
+      "award_origins": [
+        "GLA",
+        "EDI",
+        "LHR",
+        "DUB",
+        "MAN"
+      ]
+    }
   ],
   "min_seats": 2,
   "max_stops": 1,
-  "layover_flag_hours": 3.0,
+  "layover_flag_hours": 4.0,
   "max_taxes_minor_units": 40000,
-  "cabins": ["economy", "premium", "business", "first"],
-
-  "cash_cabins": ["economy", "business"],
+  "cabins": [
+    "economy",
+    "premium",
+    "business",
+    "first"
+  ],
+  "cash_cabins": [
+    "economy",
+    "business"
+  ],
   "cash_adults": 1,
   "cash_drop_pct": 10,
   "cash_targets": {
-    "outbound|economy": 500, "return|economy": 500, "roundtrip|economy": 900,
-    "outbound|business": 2200, "return|business": 2200, "roundtrip|business": 3500
+    "outbound|economy": 450,
+    "return|economy": 450,
+    "roundtrip|economy": 850,
+    "outbound|business": 1800,
+    "return|business": 1800,
+    "roundtrip|business": 2800
   },
   "good_cpp_multiplier": 1.25
 }

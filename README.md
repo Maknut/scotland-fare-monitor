@@ -16,6 +16,10 @@ Runs at 06:30 ET. When anything changed, the workflow opens a GitHub Issue title
 2. Actions tab → enable workflows → run "Scotland award + cash fare monitor" once manually (establishes the baseline; no issue is opened on the first run).
 3. Optional: create a label `fare-alert` so alerts are filterable.
 
+## Route coverage note
+
+seats.aero's cached feed (all the API exposes to Pro keys) has **no data for RDU→GLA/EDI** — the web UI fills that route with live searches, which aren't available via API. So the points search is widened with `award_destinations` / `award_origins` (LHR, DUB, MAN) in `config.json`; add a separate seats.aero **Alert** in the web UI for the exact GLA/EDI route to cover live-only results. Cash searches still use the exact GLA/EDI route.
+
 ## Tuning
 
 Edit `config.json` — dates, airports, `min_seats`, `layover_flag_hours`, `cash_targets`, `cash_cabins` (adding `premium` costs 3 more SerpApi searches/day; free plan is 250/month, current usage ≈ 180/month). Local run:
