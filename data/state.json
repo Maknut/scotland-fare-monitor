@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-11T14:33:48.719124+00:00",
+  "checked_at": "2026-09-12T13:41:27.054522+00:00",
   "options": {
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4805, AA142": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4805, AA142",
@@ -177,28 +177,6 @@
       "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
       "trip_id": "3J1SMbznlEq9IQUGUq41UMKF40D"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI164": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI164",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "EI84, EI164",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 62500,
-      "taxes": 3050,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T13:30:00Z",
-      "total_duration_min": 725,
-      "layovers": [],
-      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
-      "trip_id": "3HrUgvdXNHsd0FDCn4j3iHQ8DwJ"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI162": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI162",
       "search": "Outbound RDU -> GLA/EDI",
@@ -221,15 +199,15 @@
       "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
       "trip_id": "3HrUguwxXfce670Nbnk41l0gbku"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI178": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI178",
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI164": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI164",
       "search": "Outbound RDU -> GLA/EDI",
       "date": "2027-07-09",
       "source": "alaska",
       "cabin": "economy",
       "origin": "RDU",
       "destination": "LHR",
-      "flight_numbers": "EI84, EI178",
+      "flight_numbers": "EI84, EI164",
       "carriers": "EI",
       "stops": 1,
       "seats": 4,
@@ -237,11 +215,11 @@
       "taxes": 3050,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T19:25:00Z",
-      "total_duration_min": 1080,
+      "arrives_at": "2027-07-10T13:30:00Z",
+      "total_duration_min": 725,
       "layovers": [],
       "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
-      "trip_id": "3HrUguJlfTeS1MIdbHs8IgBeqKw"
+      "trip_id": "3HrUgvdXNHsd0FDCn4j3iHQ8DwJ"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI176": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI176",
@@ -330,6 +308,28 @@
       "layovers": [],
       "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
       "trip_id": "3HrUgxsnFRTmaMrya2VR0ou6g4n"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI178": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI178",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "EI84, EI178",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 62500,
+      "taxes": 3050,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T20:25:00Z",
+      "arrives_at": "2027-07-10T19:25:00Z",
+      "total_duration_min": 1080,
+      "layovers": [],
+      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
+      "trip_id": "3HrUguJlfTeS1MIdbHs8IgBeqKw"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI158": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI158",
@@ -529,28 +529,6 @@
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3J6RY6GDToQjHEWRyojHrao5gkK"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA1694, AA728": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA1694, AA728",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "AA1694, AA728",
-      "carriers": "AA, AA",
-      "stops": 1,
-      "seats": 7,
-      "mileage": 225000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T10:36:00Z",
-      "arrives_at": "2027-07-10T10:20:00Z",
-      "total_duration_min": 1124,
-      "layovers": [],
-      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3Ip9fr2iT4Zn1VrfhTVEmfndfb6"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA1694, AA736": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA1694, AA736",
       "search": "Outbound RDU -> GLA/EDI",
@@ -573,27 +551,27 @@
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3IUfx8bW4WaJ5AvitgxX2GznbJW"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2635, AA734": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2635, AA734",
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA1694, AA728": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA1694, AA728",
       "search": "Outbound RDU -> GLA/EDI",
       "date": "2027-07-09",
       "source": "smiles",
       "cabin": "economy",
       "origin": "RDU",
       "destination": "LHR",
-      "flight_numbers": "AA2635, AA734",
+      "flight_numbers": "AA1694, AA728",
       "carriers": "AA, AA",
       "stops": 1,
       "seats": 7,
-      "mileage": 133000,
+      "mileage": 225000,
       "taxes": 0,
       "taxes_currency": "USD",
-      "departs_at": "2027-07-09T11:13:00Z",
-      "arrives_at": "2027-07-10T12:15:00Z",
-      "total_duration_min": 1202,
+      "departs_at": "2027-07-09T10:36:00Z",
+      "arrives_at": "2027-07-10T10:20:00Z",
+      "total_duration_min": 1124,
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3J6RY8Pr6h2tgW2JCEYZ9WsZ4PZ"
+      "trip_id": "3Ip9fr2iT4Zn1VrfhTVEmfndfb6"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2635, AA732": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2635, AA732",
@@ -617,6 +595,28 @@
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3J6RY4Tjqno8mngPDtFUWb2b8Br"
     },
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2635, AA734": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2635, AA734",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "AA2635, AA734",
+      "carriers": "AA, AA",
+      "stops": 1,
+      "seats": 7,
+      "mileage": 133000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T11:13:00Z",
+      "arrives_at": "2027-07-10T12:15:00Z",
+      "total_duration_min": 1202,
+      "layovers": [],
+      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
+      "trip_id": "3J6RY8Pr6h2tgW2JCEYZ9WsZ4PZ"
+    },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4765, AA100": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4765, AA100",
       "search": "Outbound RDU -> GLA/EDI",
@@ -638,28 +638,6 @@
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3Ip9fnt8bwoY5zh1WjVYENFHeOo"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA736": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA736",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "AA2403, AA736",
-      "carriers": "AA, AA",
-      "stops": 1,
-      "seats": 7,
-      "mileage": 225000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T13:11:00Z",
-      "arrives_at": "2027-07-10T07:50:00Z",
-      "total_duration_min": 819,
-      "layovers": [],
-      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3IUfx8ajKxYp9yEvv45hfqfhmVa"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA728": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA728",
@@ -683,27 +661,27 @@
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3IUfxEgvZMGhFQ9bzbMjHXqOQ80"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4756, AA46": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4756, AA46",
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA736": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA736",
       "search": "Outbound RDU -> GLA/EDI",
       "date": "2027-07-09",
       "source": "smiles",
       "cabin": "economy",
       "origin": "RDU",
       "destination": "LHR",
-      "flight_numbers": "AA4756, AA46",
+      "flight_numbers": "AA2403, AA736",
       "carriers": "AA, AA",
       "stops": 1,
       "seats": 7,
-      "mileage": 158000,
+      "mileage": 225000,
       "taxes": 0,
       "taxes_currency": "USD",
-      "departs_at": "2027-07-09T13:19:00Z",
-      "arrives_at": "2027-07-10T10:30:00Z",
-      "total_duration_min": 971,
+      "departs_at": "2027-07-09T13:11:00Z",
+      "arrives_at": "2027-07-10T07:50:00Z",
+      "total_duration_min": 819,
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3J6RY87359kUpNXgMgD7hvTg9KY"
+      "trip_id": "3IUfx8ajKxYp9yEvv45hfqfhmVa"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4756, AA86": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4756, AA86",
@@ -726,6 +704,28 @@
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3J6RY5fyEJCu2Pu5W7sk87Vj30O"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4756, AA46": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4756, AA46",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "AA4756, AA46",
+      "carriers": "AA, AA",
+      "stops": 1,
+      "seats": 7,
+      "mileage": 158000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T13:19:00Z",
+      "arrives_at": "2027-07-10T10:30:00Z",
+      "total_duration_min": 971,
+      "layovers": [],
+      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
+      "trip_id": "3J6RY87359kUpNXgMgD7hvTg9KY"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2510, AA728": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2510, AA728",
@@ -793,6 +793,28 @@
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3J6RY2cpX8WOOt5WftrE8laUFP6"
     },
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1380": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1380",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "AF75, AF1380",
+      "carriers": "AF, AF",
+      "stops": 1,
+      "seats": 9,
+      "mileage": 98000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T18:10:00Z",
+      "arrives_at": "2027-07-10T21:25:00Z",
+      "total_duration_min": 1335,
+      "layovers": [],
+      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
+      "trip_id": "3HwxQgSpMsIFbpEgJacLmCwMfBe"
+    },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1780": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1780",
       "search": "Outbound RDU -> GLA/EDI",
@@ -836,28 +858,6 @@
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3HwxQjTjnMJZbDmaP3k55QrGCbT"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1380": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1380",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "AF75, AF1380",
-      "carriers": "AF, AF",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 98000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T18:10:00Z",
-      "arrives_at": "2027-07-10T21:25:00Z",
-      "total_duration_min": 1335,
-      "layovers": [],
-      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3HwxQgSpMsIFbpEgJacLmCwMfBe"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2615, AA734": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2615, AA734",
@@ -903,27 +903,27 @@
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3HwxQeKiDWk66Z8cTqNYHg05H5i"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1535, UA228": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1535, UA228",
+    "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA794, UA23": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA794, UA23",
       "search": "Outbound RDU -> GLA/EDI",
       "date": "2027-07-09",
       "source": "united",
       "cabin": "economy",
       "origin": "RDU",
       "destination": "DUB",
-      "flight_numbers": "UA1535, UA228",
+      "flight_numbers": "UA794, UA23",
       "carriers": "UA, UA",
       "stops": 1,
       "seats": 9,
-      "mileage": 40000,
+      "mileage": 58400,
       "taxes": 560,
       "taxes_currency": "USD",
-      "departs_at": "2027-07-09T10:21:00Z",
-      "arrives_at": "2027-07-10T10:40:00Z",
-      "total_duration_min": 1159,
+      "departs_at": "2027-07-09T09:20:00Z",
+      "arrives_at": "2027-07-10T07:30:00Z",
+      "total_duration_min": 1030,
       "layovers": [],
       "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
-      "trip_id": "3I8i67XTCMU0uvKg7J9JCpnc14F"
+      "trip_id": "3I8i64pb8FvMik0BaIeyf53DpOg"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1535, UA310": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1535, UA310",
@@ -936,7 +936,7 @@
       "flight_numbers": "UA1535, UA310",
       "carriers": "UA, UA",
       "stops": 1,
-      "seats": 9,
+      "seats": 4,
       "mileage": 40000,
       "taxes": 560,
       "taxes_currency": "USD",
@@ -946,6 +946,28 @@
       "layovers": [],
       "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
       "trip_id": "3I8i65bGHxD4yCR9Bz7G6xFSwWB"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1535, UA228": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1535, UA228",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "united",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "DUB",
+      "flight_numbers": "UA1535, UA228",
+      "carriers": "UA, UA",
+      "stops": 1,
+      "seats": 9,
+      "mileage": 51800,
+      "taxes": 560,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T10:21:00Z",
+      "arrives_at": "2027-07-10T10:40:00Z",
+      "total_duration_min": 1159,
+      "layovers": [],
+      "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
+      "trip_id": "3I8i67XTCMU0uvKg7J9JCpnc14F"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1363, UA980": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1363, UA980",
@@ -959,7 +981,7 @@
       "carriers": "UA, UA",
       "stops": 1,
       "seats": 9,
-      "mileage": 55600,
+      "mileage": 47200,
       "taxes": 560,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T10:30:00Z",
@@ -968,28 +990,6 @@
       "layovers": [],
       "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
       "trip_id": "3I8i63LY8oeIZaoWAjk5jy72iZm"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1536, UA23": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1536, UA23",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "united",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "DUB",
-      "flight_numbers": "UA1536, UA23",
-      "carriers": "UA, UA",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 55600,
-      "taxes": 560,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T11:20:00Z",
-      "arrives_at": "2027-07-10T07:30:00Z",
-      "total_duration_min": 910,
-      "layovers": [],
-      "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
-      "trip_id": "3I8i65X2lssEGcTtgZQR4QOYeKF"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA5732, UA980": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA5732, UA980",
@@ -1003,7 +1003,7 @@
       "carriers": "UA, UA",
       "stops": 1,
       "seats": 9,
-      "mileage": 55600,
+      "mileage": 47200,
       "taxes": 560,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T11:35:00Z",
@@ -1025,7 +1025,7 @@
       "carriers": "UA, UA",
       "stops": 1,
       "seats": 9,
-      "mileage": 55600,
+      "mileage": 51200,
       "taxes": 560,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T12:45:00Z",
@@ -1047,7 +1047,7 @@
       "carriers": "UA, UA",
       "stops": 1,
       "seats": 9,
-      "mileage": 55600,
+      "mileage": 51200,
       "taxes": 560,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T14:50:00Z",
@@ -1056,50 +1056,6 @@
       "layovers": [],
       "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
       "trip_id": "3I8i67Z7vRNxUvziHa9t4wT6YgB"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA2463, UA228": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA2463, UA228",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "united",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "DUB",
-      "flight_numbers": "UA2463, UA228",
-      "carriers": "UA, UA",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 55600,
-      "taxes": 560,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T14:50:00Z",
-      "arrives_at": "2027-07-10T10:40:00Z",
-      "total_duration_min": 890,
-      "layovers": [],
-      "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
-      "trip_id": "3I8i61Z3n1LpyTM9cuMQNlVb7oQ"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1611, UA23": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1611, UA23",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "united",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "DUB",
-      "flight_numbers": "UA1611, UA23",
-      "carriers": "UA, UA",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 55600,
-      "taxes": 560,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T15:15:00Z",
-      "arrives_at": "2027-07-10T07:30:00Z",
-      "total_duration_min": 675,
-      "layovers": [],
-      "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
-      "trip_id": "3I8i63tNPqwsbQBAb4yG4zd83GY"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA2817, UA980": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA2817, UA980",
@@ -1113,7 +1069,7 @@
       "carriers": "UA, UA",
       "stops": 1,
       "seats": 9,
-      "mileage": 55600,
+      "mileage": 47200,
       "taxes": 560,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T17:30:00Z",
@@ -1122,28 +1078,6 @@
       "layovers": [],
       "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
       "trip_id": "3IpL0V2HF2SHGyWxdKBPIFYbVK3"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1594, UA317": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA1594, UA317",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "united",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "DUB",
-      "flight_numbers": "UA1594, UA317",
-      "carriers": "UA, UA",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 60000,
-      "taxes": 560,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T19:00:00Z",
-      "arrives_at": "2027-07-10T11:10:00Z",
-      "total_duration_min": 670,
-      "layovers": [],
-      "availability_id": "3HZ91ize42lncPuJXOAe7UFGX0s",
-      "trip_id": "3I8i62IxKs1cEyZhvnu7QUiRti5"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA2642, UA228": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|united|economy|RDU|DUB|UA2642, UA228",
@@ -1157,7 +1091,7 @@
       "carriers": "UA, UA",
       "stops": 1,
       "seats": 9,
-      "mileage": 55600,
+      "mileage": 58000,
       "taxes": 560,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T19:51:00Z",
@@ -2066,7 +2000,7 @@
       "lowest_clean": {
         "leg": "return",
         "cabin": "economy",
-        "price": 962,
+        "price": 992,
         "origin": "EDI",
         "destination": "RDU",
         "departs_at": "2027-07-19 11:10",
@@ -2131,7 +2065,7 @@
         ],
         "total_duration_min": 640
       },
-      "count": 11,
+      "count": 12,
       "error": null
     },
     "outbound|business": {
@@ -2177,14 +2111,14 @@
         ],
         "total_duration_min": 715
       },
-      "count": 11,
+      "count": 15,
       "error": null
     },
     "return|business": {
       "lowest": {
         "leg": "return",
         "cabin": "business",
-        "price": 2279,
+        "price": 2280,
         "origin": "GLA",
         "destination": "RDU",
         "departs_at": "2027-07-19 14:20",
@@ -2205,25 +2139,25 @@
       "lowest_clean": {
         "leg": "return",
         "cabin": "business",
-        "price": 2762,
+        "price": 2809,
         "origin": "EDI",
         "destination": "RDU",
-        "departs_at": "2027-07-19 12:15",
-        "arrives_at": "2027-07-19 18:55",
+        "departs_at": "2027-07-19 09:15",
+        "arrives_at": "2027-07-19 15:17",
         "airlines": [
-          "Aer Lingus"
+          "Air Canada"
         ],
-        "flight_numbers": "EI 3253, EI 85",
+        "flight_numbers": "AC 937, AC 8671",
         "stops": 1,
         "layovers": [
           {
-            "airport": "DUB",
-            "hours": 1.92
+            "airport": "YUL",
+            "hours": 1.58
           }
         ],
-        "total_duration_min": 700
+        "total_duration_min": 662
       },
-      "count": 10,
+      "count": 13,
       "error": null
     },
     "roundtrip|business": {
@@ -2269,7 +2203,7 @@
         ],
         "total_duration_min": 715
       },
-      "count": 10,
+      "count": 11,
       "error": null
     }
   },
@@ -2358,6 +2292,21 @@
         "roundtrip|economy": 960,
         "outbound|business": 2677,
         "return|business": 2279,
+        "roundtrip|business": 3522
+      }
+    },
+    {
+      "at": "2026-09-12T13:41:27.054536+00:00",
+      "n_options": 87,
+      "n_new": 1,
+      "n_gone": 4,
+      "n_drops": 0,
+      "cash_lowest": {
+        "outbound|economy": 444,
+        "return|economy": 954,
+        "roundtrip|economy": 960,
+        "outbound|business": 2677,
+        "return|business": 2280,
         "roundtrip|business": 3522
       }
     }
