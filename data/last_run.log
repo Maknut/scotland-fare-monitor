@@ -2,14 +2,18 @@
 [Outbound RDU -> GLA/EDI] 95 options pass filters
 [Return GLA/EDI -> RDU] 130 availability rows from cached search
 [Return GLA/EDI -> RDU] 70 options pass filters
-[cash outbound|economy] 13 itineraries; lowest=444
-[cash return|economy] 12 itineraries; lowest=935
+[cash outbound|economy] 12 itineraries; lowest=444
+[cash return|economy] 12 itineraries; lowest=934
 [cash roundtrip|economy] 12 itineraries; lowest=973
 [cash outbound|business] 12 itineraries; lowest=2269
-[cash return|business] 12 itineraries; lowest=2236
+[cash return|business] 13 itineraries; lowest=2235
 [cash roundtrip|business] 10 itineraries; lowest=4673
-[positioning euro_out 2027-07-09] 43 nonstop fares
-[positioning euro_out 2027-07-10] 34 nonstop fares
-[positioning euro_ret 2027-07-19] 43 nonstop fares
-[positioning us_out 2027-07-09] 72 nonstop fares
-[positioning us_ret 2027-07-19] 72 nonstop fares
+[positioning] using cached fares from 2026-09-23
+Traceback (most recent call last):
+  File "/home/runner/work/scotland-fare-monitor/scotland-fare-monitor/monitor.py", line 486, in <module>
+    main()
+  File "/home/runner/work/scotland-fare-monitor/scotland-fare-monitor/monitor.py", line 451, in main
+    header = "CHANGES DETECTED\n" + header.split("\n", 1)[1]
+                                    ~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+monitor exited 1
