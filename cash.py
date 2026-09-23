@@ -137,11 +137,11 @@ def diff_cash(old_state, cash, cfg):
     lows = dict(old_state.get("cash_alltime_low", {}) or {})
     events = []
     for key, cur in cash.items():
-        lo = cur["lowest"]
+        lo = cur.get("lowest_clean") or cur["lowest"]   # ignore long-layover/stopover fares for alerts
         if not lo:
             continue
         price = lo["price"]
-        prev = (old.get(key) or {}).get("lowest") or {}
+        prev = (old.get(key) or {}).get("lowest_clean") or (old.get(key) or {}).get("lowest") or {}
         prev_price = prev.get("price")
         leg, cabin = key.split("|")
         target = cfg["cash_targets"].get(key)
@@ -174,7 +174,7 @@ def compare_points_to_cash(best_points, cash, cfg, searches):
     for opt in best_points.values():
         leg = label_to_leg.get(opt["search"])
         c = cash.get(f"{leg}|{opt['cabin']}") if leg else None
-        cash_lo = (c or {}).get("lowest")
+        cash_lo = (c or {}).get("lowest_clean") or (c or {}).get("lowest")
         if not cash_lo or not opt.get("mileage"):
             continue
         tx = taxes_usd(opt, cfg)

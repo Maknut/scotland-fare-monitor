@@ -31,6 +31,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import cash as cash_mod  # noqa: E402
+import composite as comp_mod  # noqa: E402
 
 API_BASE = "https://seats.aero/partnerapi"
 
@@ -46,7 +47,40 @@ DEFAULT_CONFIG = {
     # URL used max_fees=40000, which we mirror here. Set to null to disable.
     "max_taxes_minor_units": 40000,
     "cabins": ["economy", "premium", "business", "first"],
+    # EDI/GLA are the priority airports. seats.aero caches nothing on RDU<->EDI/GLA, so award
+    # segments are also pulled for Euro hubs and US gateways and paired with a cash hop.
+    "home": "RDU",
+    "priority_airports": ["EDI", "GLA"],
+    "euro_hubs": ["LHR", "DUB", "MAN"],
+    "us_gateways": ["EWR", "JFK", "BOS", "IAD", "PHL", "ATL", "ORD", "CLT"],
+    "self_transfer_min_hours": 3.0,
+    "self_transfer_max_hours": 12.0,
+    "positioning_refresh_days": 4,
+    "composite_show_per_cabin": 4,
 }
+
+
+def prepare_searches(cfg):
+    """Tag each search with its leg and derive the award airport lists."""
+    home, pri, hubs, gws = cfg["home"], cfg["priority_airports"], cfg["euro_hubs"], cfg["us_gateways"]
+    out, ret = cfg["searches"][0], cfg["searches"][1]
+    out["_leg"], ret["_leg"] = "outbound", "return"
+    out["award_origins"], out["award_destinations"] = [home] + gws, pri + hubs
+    ret["award_origins"], ret["award_destinations"] = pri + hubs, [home] + gws
+
+
+def relevant(opt, cfg):
+    """Keep direct RDU<->EDI/GLA, RDU<->hub (Europe-side hop), gateway<->EDI/GLA (US-side hop)."""
+    home, pri = cfg["home"], set(cfg["priority_airports"])
+    if opt["leg"] == "outbound":
+        return opt["origin"] == home or opt["destination"] in pri
+    return opt["destination"] == home or opt["origin"] in pri
+
+
+def is_direct(opt, cfg):
+    home, pri = cfg["home"], set(cfg["priority_airports"])
+    ends = {opt["origin"], opt["destination"]}
+    return home in ends and bool(ends & pri)
 
 CABIN_NAMES = {"economy": "Economy", "premium": "Premium Economy", "business": "Business", "first": "First"}
 
@@ -250,9 +284,10 @@ def fetch_all(cfg, api_key, log):
             for t in trips or []:
                 # trips endpoint returns each route/date/source/cabin; re-check date matches the search date
                 opt = trip_to_option(t, avail, s["label"])
+                opt["leg"] = s["_leg"]
                 if opt["date"] != s["date"]:
                     continue
-                if not passes_filters(opt, cfg):
+                if not relevant(opt, cfg) or not passes_filters(opt, cfg):
                     continue
                 # Keep the cheapest record per key (same flights can be listed under several fare buckets)
                 prev = options.get(opt["key"])
@@ -349,14 +384,10 @@ def report(d, options, cfg, first_run):
         for o in sorted(d["gone"], key=lambda x: (x["search"], x["mileage"])):
             lines.append("- " + fmt_opt(o, cfg))
 
-    lines.append("\n## Current best by program + cabin")
-    best = lowest_by_price_key(options)
-    for s in cfg["searches"]:
-        lines.append(f"### {s['label']} ({s['date']})")
-        rows = [o for o in best.values() if o["search"] == s["label"]]
-        if not rows:
-            lines.append("- (nothing passes filters)")
-        for o in sorted(rows, key=lambda x: (x["cabin"], x["mileage"])):
+    best = [o for o in lowest_by_price_key(options).values() if is_direct(o, cfg)]
+    if best:
+        lines.append("\n## Single-ticket awards RDU ↔ EDI/GLA")
+        for o in sorted(best, key=lambda x: (x["search"], x["cabin"], x["mileage"])):
             lines.append("- " + fmt_opt(o, cfg))
     return "\n".join(lines)
 
@@ -382,6 +413,8 @@ def main():
         with open(args.config) as f:
             cfg.update(json.load(f))
 
+    prepare_searches(cfg)
+
     old_state = {}
     if os.path.exists(args.state):
         with open(args.state) as f:
@@ -398,12 +431,16 @@ def main():
 
     # ---- cash + comparison
     cash, cdiff, rows, new_deals, good_now = {}, {"events": [], "alltime_low": old_state.get("cash_alltime_low", {})}, [], [], {}
+    comp_rows, positioning = [], old_state.get("positioning") or {}
     if serp_key:
         try:
             cash = cash_mod.fetch_cash(cfg, cfg, serp_key, log)
             cdiff = cash_mod.diff_cash(old_state, cash, cfg)
-            rows = cash_mod.compare_points_to_cash(lowest_by_price_key(options), cash, cfg, cfg["searches"])
-            new_deals, good_now = cash_mod.diff_good_deals(old_state, rows)
+            direct_best = {k: v for k, v in lowest_by_price_key(options).items() if is_direct(v, cfg)}
+            rows = cash_mod.compare_points_to_cash(direct_best, cash, cfg, cfg["searches"])
+            positioning = comp_mod.fetch_positioning(cfg, old_state, serp_key, log)
+            comp_rows = comp_mod.build(options, positioning, cash, cfg)
+            new_deals, good_now = cash_mod.diff_good_deals(old_state, rows + comp_rows)
         except Exception as e:  # cash is best-effort; never lose the points run over it
             log(f"CASH TRACKING FAILED: {e}")
             cash = old_state.get("cash", {})
@@ -414,6 +451,7 @@ def main():
         header = "CHANGES DETECTED\n" + header.split("\n", 1)[1]
     print(header)
     if serp_key:
+        print(comp_mod.report(comp_rows, sum(1 for o in options.values() if is_direct(o, cfg)), cfg))
         print(cash_mod.report_cash(cash, cdiff, rows, new_deals, cfg, cfg["layover_flag_hours"], first_run))
     if args.json:
         print("\n--- JSON ---")
@@ -428,6 +466,7 @@ def main():
             "options": options,
             "lowest": d["lowest"],
             "cash": cash,
+            "positioning": positioning,
             "cash_alltime_low": cdiff["alltime_low"],
             "good_deal_cpp": good_now if serp_key else old_state.get("good_deal_cpp", {}),
             "history": (old_state.get("history") or [])[-90:] + [{

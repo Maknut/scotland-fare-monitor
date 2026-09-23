@@ -18,7 +18,13 @@ Runs at 06:30 ET. When anything changed, the workflow opens a GitHub Issue title
 
 ## Route coverage note
 
-seats.aero's cached feed (all the API exposes to Pro keys) has **no data for RDU→GLA/EDI** — the web UI fills that route with live searches, which aren't available via API. So the points search is widened with `award_destinations` / `award_origins` (LHR, DUB, MAN) in `config.json`; add a separate seats.aero **Alert** in the web UI for the exact GLA/EDI route to cover live-only results. Cash searches still use the exact GLA/EDI route.
+EDI and GLA are the priority airports. Cash searches are RDU↔EDI/GLA only. For points, seats.aero's API exposes only its cache, which has **no RDU↔EDI/GLA data** (the website fills that route with live searches, and Live Search isn't available to Pro API keys). So the monitor:
+
+1. Reports any single-ticket RDU↔EDI/GLA award that does show up in the cache.
+2. Builds EDI/GLA itineraries from cached award segments plus a nonstop cash positioning flight — Europe-side (RDU↔LHR/DUB/MAN on points + hub↔EDI/GLA cash) or US-side (RDU↔EWR/JFK/BOS/… cash + gateway↔EDI/GLA on points). Only connections with 3–12h on the ground are kept, and cents-per-point subtracts the hop fare.
+3. Keep a seats.aero **web Alert** on RDU↔GLA/EDI to catch live-only results.
+
+Positioning fares refresh every 4 days (5 SerpApi searches), keeping total usage ≈ 220/month on the free 250 tier.
 
 ## Tuning
 
