@@ -1,36 +1,8 @@
 CHANGES DETECTED
 
-## Points went DOWN
-- Outbound RDU -> GLA/EDI ATL→EDI flyingblue Premium Economy: 85,000 → 84,500 mi (−500)
-- Return GLA/EDI -> RDU EDI→ATL flyingblue Economy: 96,200 → 96,100 mi (−100)
-
 ## New options
-- RDU→LHR Fri Jul 9 05:39 → Fri Jul 9 22:10  alaska Economy: 22,500 mi + 26 USD, 9 seats, 1 stop, AA4805, AA142
-- RDU→LHR Fri Jul 9 18:29 → Sat Jul 10 12:15  smiles Economy: 136,000 mi + 0 USD, 7 seats, 1 stop, AA2616, AA734
-- RDU→LHR Fri Jul 9 15:15 → Sat Jul 10 10:20  smiles Economy: 142,000 mi + 0 USD, 7 seats, 1 stop, AA5638, AA728
-- RDU→LHR Fri Jul 9 13:19 → Sat Jul 10 08:05  smiles Economy: 161,000 mi + 0 USD, 7 seats, 1 stop, AA4756, AA86
-- RDU→LHR Fri Jul 9 16:14 → Sat Jul 10 10:30  smiles Economy: 161,000 mi + 0 USD, 7 seats, 1 stop, AA4346, AA46
-- RDU→LHR Fri Jul 9 18:24 → Sat Jul 10 12:50  smiles Economy: 161,000 mi + 0 USD, 7 seats, 1 stop, AA3696, AA98
-- DUB→RDU Mon Jul 19 09:30 → Tue Jul 20 12:49  alaska Economy: 35,000 mi + 72 USD, 9 seats, 1 stop, AA209, AA4756
-- DUB→RDU Mon Jul 19 09:30 → Tue Jul 20 11:38  alaska Economy: 35,000 mi + 72 USD, 9 seats, 1 stop, AA209, AA4762
-- DUB→RDU Mon Jul 19 09:30 → Mon Jul 19 23:59  alaska Economy: 35,000 mi + 72 USD, 9 seats, 1 stop, AA209, AA600
-- DUB→RDU Mon Jul 19 09:30 → Mon Jul 19 23:39  alaska Economy: 35,000 mi + 72 USD, 9 seats, 1 stop, AA209, AA4615
-- EDI→EWR Mon Jul 19 09:15 → Mon Jul 19 18:04  aeroplan Economy: 75,407 mi + 311 CAD, 3 seats, 1 stop, AC937, AC8498
-- EDI→EWR Mon Jul 19 09:15 → Mon Jul 19 20:03  aeroplan Economy: 75,407 mi + 311 CAD, 5 seats, 1 stop, AC937, AC8500
-
-## Disappeared since last check
-- RDU→LHR Fri Jul 9 05:39 → Fri Jul 9 21:00  alaska Economy: 22,500 mi + 26 USD, 9 seats, 1 stop, AA4805, AA1535
-- JFK→EDI Fri Jul 9 01:00 → Fri Jul 9 16:30  delta Economy: 52,600 mi + 25 USD, 9 seats, 1 stop, AF11, AF1486
-- RDU→LHR Fri Jul 9 05:39 → Sat Jul 10 06:25  smiles Economy: 80,000 mi + 0 USD, 4 seats, 1 stop, AA4805, AA100
-- RDU→LHR Fri Jul 9 20:08 → Sat Jul 10 12:15  smiles Economy: 136,000 mi + 0 USD, 5 seats, 1 stop, AA2615, AA734
-- RDU→LHR Fri Jul 9 12:08 → Sat Jul 10 06:25  smiles Economy: 232,000 mi + 0 USD, 7 seats, 1 stop, AA4765, AA100
-- RDU→LHR Fri Jul 9 12:08 → Sat Jul 10 07:40  smiles Economy: 232,000 mi + 0 USD, 7 seats, 1 stop, AA4765, AA106
-- RDU→LHR Fri Jul 9 12:31 → Sat Jul 10 07:40  smiles Economy: 232,000 mi + 0 USD, 7 seats, 1 stop, AA4431, AA106
-- RDU→LHR Fri Jul 9 06:43 → Sat Jul 10 06:55  smiles Economy: 245,000 mi + 0 USD, 7 seats, 1 stop, AA1004, AA730
-- RDU→LHR Fri Jul 9 08:54 → Sat Jul 10 06:55  smiles Economy: 245,000 mi + 0 USD, 7 seats, 1 stop, AA2624, AA730
-- EDI→BOS Mon Jul 19 09:15 → Mon Jul 19 18:20  flyingblue Economy: 72,700 mi + 373 USD, 9 seats, 1 stop, KL924, KL617
+- RDU→LHR Fri Jul 9 07:37 → Sat Jul 10 06:50  alaska Economy: 35,000 mi + 369 USD, 9 seats, 1 stop, AA1115, BA66
 - EDI→JFK Mon Jul 19 05:40 → Mon Jul 19 12:40  flyingblue Economy: 78,300 mi + 374 USD, 9 seats, 1 stop, AF1887, AF4
-- EDI→ATL Mon Jul 19 11:15 → Mon Jul 19 20:25  flyingblue Economy: 96,200 mi + 373 USD, 9 seats, 1 stop, KL926, KL621
 
 ## Points into / out of EDI & GLA
 Single-ticket RDU↔EDI/GLA awards: none in seats.aero's cache (the API can't see live-only results — your seats.aero web alert covers those). Built from award + separate cash hop instead:
@@ -43,8 +15,8 @@ Single-ticket RDU↔EDI/GLA awards: none in seats.aero's cache (the API can't se
 - outbound premium RDU→EDI via JFK: $189 cash RDU→JFK (Fri 12:08→Fri 13:59, AA 4765) + flyingblue 48,000 mi + $243 (JFK→EDI Fri 21:30→Sat 14:15, AF7, AF1386), 7.5h self-transfer
 - outbound premium RDU→EDI via JFK: $189 cash RDU→JFK (Fri 12:08→Fri 13:59, AA 4765) + flyingblue 48,000 mi + $243 (JFK→EDI Fri 23:30→Sat 16:30, AF9, AF1486), 9.5h self-transfer
 - return economy GLA→RDU via DUB: $74 cash GLA→DUB (Mon 09:05→Mon 10:05, FR 5150) + alaska 27,500 mi + $67 (DUB→RDU Mon 15:30→Mon 18:55, EI85), 5.4h self-transfer → 3.08¢/pt vs $987 cash  ★ good deal
-- return economy EDI→RDU via DUB: $115 cash EDI→DUB (Mon 07:55→Mon 09:00, FR 817) + united 61,400 mi + $52 (DUB→RDU Mon 12:30→Mon 18:58, UA229, UA2344), 3.5h self-transfer → 1.33¢/pt vs $987 cash
 - return economy EDI→RDU via DUB: $115 cash EDI→DUB (Mon 07:55→Mon 09:00, FR 817) + united 61,400 mi + $52 (DUB→RDU Mon 12:30→Mon 23:33, UA229, UA2382), 3.5h self-transfer → 1.33¢/pt vs $987 cash
+- return economy EDI→RDU via DUB: $115 cash EDI→DUB (Mon 07:55→Mon 09:00, FR 817) + united 61,400 mi + $52 (DUB→RDU Mon 12:30→Mon 18:58, UA229, UA2344), 3.5h self-transfer → 1.33¢/pt vs $987 cash
 - return economy EDI→RDU via LHR: $89 cash EDI→LHR (Mon 06:20→Mon 07:55, BA 1465) + alaska 62,500 mi + $217 (LHR→RDU Mon 12:00→Mon 18:55, EI159, EI85), 4.1h self-transfer → 1.09¢/pt vs $987 cash
   Separate tickets: bags are rechecked and a late first flight doesn't protect the second. Heathrow means an AA (T3) → BA (T5) terminal change.
 
