@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T15:22:14.677381+00:00",
+  "checked_at": "2026-10-24T14:05:39.790843+00:00",
   "options": {
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4805, AA142": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4805, AA142",
@@ -37,7 +37,7 @@
       "stops": 1,
       "seats": 9,
       "mileage": 35000,
-      "taxes": 36900,
+      "taxes": 37900,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T07:37:00Z",
       "arrives_at": "2027-07-10T06:50:00Z",
@@ -45,29 +45,6 @@
       "layovers": [],
       "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
       "trip_id": "3KqopuBQOgVxfwtcQdya9KKwXXA",
-      "leg": "outbound"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4765, AA100": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4765, AA100",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "AA4765, AA100",
-      "carriers": "AA",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 22500,
-      "taxes": 2560,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T12:08:00Z",
-      "arrives_at": "2027-07-10T06:25:00Z",
-      "total_duration_min": 797,
-      "layovers": [],
-      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
-      "trip_id": "3KPyTjzLPJnRWAOOuPBTDukyV5q",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4765, AA106": {
@@ -93,27 +70,27 @@
       "trip_id": "3KPyTnkf0OzGth2Mlog5HUwnzt0",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI172": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI172",
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4765, AA100": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|AA4765, AA100",
       "search": "Outbound RDU -> GLA/EDI",
       "date": "2027-07-09",
       "source": "alaska",
       "cabin": "economy",
       "origin": "RDU",
       "destination": "LHR",
-      "flight_numbers": "EI84, EI172",
-      "carriers": "EI",
+      "flight_numbers": "AA4765, AA100",
+      "carriers": "AA",
       "stops": 1,
-      "seats": 4,
-      "mileage": 62500,
-      "taxes": 3040,
+      "seats": 9,
+      "mileage": 22500,
+      "taxes": 2560,
       "taxes_currency": "USD",
-      "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T17:20:00Z",
-      "total_duration_min": 955,
+      "departs_at": "2027-07-09T12:08:00Z",
+      "arrives_at": "2027-07-10T06:25:00Z",
+      "total_duration_min": 797,
       "layovers": [],
       "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
-      "trip_id": "3HrUgxsnFRTmaMrya2VR0ou6g4n",
+      "trip_id": "3KPyTjzLPJnRWAOOuPBTDukyV5q",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI166": {
@@ -137,6 +114,121 @@
       "layovers": [],
       "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
       "trip_id": "3HrUguCO8dto51xOPYxEUbdBPiV",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI164": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI164",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "EI84, EI164",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 62500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T20:25:00Z",
+      "arrives_at": "2027-07-10T13:30:00Z",
+      "total_duration_min": 725,
+      "layovers": [],
+      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
+      "trip_id": "3HrUgvdXNHsd0FDCn4j3iHQ8DwJ",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI162": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI162",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "EI84, EI162",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 62500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T20:25:00Z",
+      "arrives_at": "2027-07-10T12:40:00Z",
+      "total_duration_min": 675,
+      "layovers": [],
+      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
+      "trip_id": "3HrUguwxXfce670Nbnk41l0gbku",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI172": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI172",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "EI84, EI172",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 62500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T20:25:00Z",
+      "arrives_at": "2027-07-10T17:20:00Z",
+      "total_duration_min": 955,
+      "layovers": [],
+      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
+      "trip_id": "3HrUgxsnFRTmaMrya2VR0ou6g4n",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI168": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI168",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "EI84, EI168",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 62500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T20:25:00Z",
+      "arrives_at": "2027-07-10T16:00:00Z",
+      "total_duration_min": 875,
+      "layovers": [],
+      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
+      "trip_id": "3HrUguw7o7WWmgmTvhyZjJO84IP",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI176": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI176",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "EI84, EI176",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 62500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T20:25:00Z",
+      "arrives_at": "2027-07-10T18:20:00Z",
+      "total_duration_min": 1015,
+      "layovers": [],
+      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
+      "trip_id": "3HrUgxNqYEY2QKonQRSjmtIZm7v",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI178": {
@@ -183,98 +275,6 @@
       "layovers": [],
       "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
       "trip_id": "3HrUgy7PN5CwkRojFaZ41ESBMvr",
-      "leg": "outbound"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI168": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI168",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "EI84, EI168",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 62500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T16:00:00Z",
-      "total_duration_min": 875,
-      "layovers": [],
-      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
-      "trip_id": "3HrUguw7o7WWmgmTvhyZjJO84IP",
-      "leg": "outbound"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI162": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI162",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "EI84, EI162",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 62500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T12:40:00Z",
-      "total_duration_min": 675,
-      "layovers": [],
-      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
-      "trip_id": "3HrUguwxXfce670Nbnk41l0gbku",
-      "leg": "outbound"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI176": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI176",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "EI84, EI176",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 62500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T18:20:00Z",
-      "total_duration_min": 1015,
-      "layovers": [],
-      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
-      "trip_id": "3HrUgxNqYEY2QKonQRSjmtIZm7v",
-      "leg": "outbound"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI164": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|RDU|LHR|EI84, EI164",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "EI84, EI164",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 62500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T13:30:00Z",
-      "total_duration_min": 725,
-      "layovers": [],
-      "availability_id": "3Gq0hnEwMm6v3RZjff6ItaNhjN3",
-      "trip_id": "3HrUgvdXNHsd0FDCn4j3iHQ8DwJ",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|flyingblue|economy|ATL|EDI|AF33, AF1386": {
@@ -553,15 +553,15 @@
       "trip_id": "3Hrn16NArgpcI7kOJt04Klhtkik",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3256": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3256",
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3554": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3554",
       "search": "Outbound RDU -> GLA/EDI",
       "date": "2027-07-09",
       "source": "alaska",
       "cabin": "economy",
       "origin": "PHL",
       "destination": "EDI",
-      "flight_numbers": "EI114, EI3256",
+      "flight_numbers": "EI114, EI3554",
       "carriers": "EI",
       "stops": 1,
       "seats": 4,
@@ -569,11 +569,11 @@
       "taxes": 3040,
       "taxes_currency": "USD",
       "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T15:00:00Z",
-      "total_duration_min": 815,
+      "arrives_at": "2027-07-10T10:40:00Z",
+      "total_duration_min": 555,
       "layovers": [],
       "availability_id": "3Gnbg4h7IA93TiTDjSuNHllJX0y",
-      "trip_id": "3Hrn11PvUmoRogWSBUolVw8H45S",
+      "trip_id": "3Hrn14Dm13HMRmHv0GPuwkPyOaF",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3252": {
@@ -599,6 +599,29 @@
       "trip_id": "3Hrn11gpZ1mCWhCLnYfVxUD9CvN",
       "leg": "outbound"
     },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3256": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3256",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "PHL",
+      "destination": "EDI",
+      "flight_numbers": "EI114, EI3256",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 87500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T20:25:00Z",
+      "arrives_at": "2027-07-10T15:00:00Z",
+      "total_duration_min": 815,
+      "layovers": [],
+      "availability_id": "3Gnbg4h7IA93TiTDjSuNHllJX0y",
+      "trip_id": "3Hrn11PvUmoRogWSBUolVw8H45S",
+      "leg": "outbound"
+    },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3254": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3254",
       "search": "Outbound RDU -> GLA/EDI",
@@ -620,75 +643,6 @@
       "layovers": [],
       "availability_id": "3Gnbg4h7IA93TiTDjSuNHllJX0y",
       "trip_id": "3Hrn10t2x5Gkrs1RkDw1OVsesbB",
-      "leg": "outbound"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3554": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|PHL|EDI|EI114, EI3554",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "PHL",
-      "destination": "EDI",
-      "flight_numbers": "EI114, EI3554",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 87500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T20:25:00Z",
-      "arrives_at": "2027-07-10T10:40:00Z",
-      "total_duration_min": 555,
-      "layovers": [],
-      "availability_id": "3Gnbg4h7IA93TiTDjSuNHllJX0y",
-      "trip_id": "3Hrn14Dm13HMRmHv0GPuwkPyOaF",
-      "leg": "outbound"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3252": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3252",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "JFK",
-      "destination": "EDI",
-      "flight_numbers": "EI104, EI3252",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 87500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T16:45:00Z",
-      "arrives_at": "2027-07-10T11:40:00Z",
-      "total_duration_min": 835,
-      "layovers": [],
-      "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
-      "trip_id": "3HrCiMgCJ6X414yJ3MdY7ZRh1SH",
-      "leg": "outbound"
-    },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3550": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3550",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "JFK",
-      "destination": "EDI",
-      "flight_numbers": "EI104, EI3550",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 87500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T16:45:00Z",
-      "arrives_at": "2027-07-10T08:30:00Z",
-      "total_duration_min": 645,
-      "layovers": [],
-      "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
-      "trip_id": "3HrCiOuvgYPfqPWhp5MbLMnwac8",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3254": {
@@ -737,29 +691,6 @@
       "trip_id": "3HrCiQXQ3TLekfYiufhUGrbORWZ",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3256": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3256",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "JFK",
-      "destination": "EDI",
-      "flight_numbers": "EI104, EI3256",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 87500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T16:45:00Z",
-      "arrives_at": "2027-07-10T15:00:00Z",
-      "total_duration_min": 1035,
-      "layovers": [],
-      "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
-      "trip_id": "3HrCiKohRh9TEpC1uPaPiMWeyBE",
-      "leg": "outbound"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3554": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3554",
       "search": "Outbound RDU -> GLA/EDI",
@@ -781,6 +712,52 @@
       "layovers": [],
       "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
       "trip_id": "3HrCiLe9ixN2q5DUB5yb5PenRPU",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3550": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3550",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "JFK",
+      "destination": "EDI",
+      "flight_numbers": "EI104, EI3550",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 87500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T16:45:00Z",
+      "arrives_at": "2027-07-10T08:30:00Z",
+      "total_duration_min": 645,
+      "layovers": [],
+      "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
+      "trip_id": "3HrCiOuvgYPfqPWhp5MbLMnwac8",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3256": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3256",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "JFK",
+      "destination": "EDI",
+      "flight_numbers": "EI104, EI3256",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 87500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T16:45:00Z",
+      "arrives_at": "2027-07-10T15:00:00Z",
+      "total_duration_min": 1035,
+      "layovers": [],
+      "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
+      "trip_id": "3HrCiKohRh9TEpC1uPaPiMWeyBE",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3250": {
@@ -806,6 +783,29 @@
       "trip_id": "3HrCiPdL09eLgY3OM3TMj2WyS4Q",
       "leg": "outbound"
     },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3252": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI104, EI3252",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "JFK",
+      "destination": "EDI",
+      "flight_numbers": "EI104, EI3252",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 87500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T16:45:00Z",
+      "arrives_at": "2027-07-10T11:40:00Z",
+      "total_duration_min": 835,
+      "layovers": [],
+      "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
+      "trip_id": "3HrCiMgCJ6X414yJ3MdY7ZRh1SH",
+      "leg": "outbound"
+    },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3258": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3258",
       "search": "Outbound RDU -> GLA/EDI",
@@ -829,29 +829,6 @@
       "trip_id": "3Kn2hS4b0I5eVlONQhsmJfulVI6",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3254": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3254",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "JFK",
-      "destination": "EDI",
-      "flight_numbers": "EI106, EI3254",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 87500,
-      "taxes": 3040,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T21:00:00Z",
-      "arrives_at": "2027-07-10T12:55:00Z",
-      "total_duration_min": 655,
-      "layovers": [],
-      "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
-      "trip_id": "3Kn2hVyWpJp1LGxr7P22g2KkgaU",
-      "leg": "outbound"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3256": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3256",
       "search": "Outbound RDU -> GLA/EDI",
@@ -873,6 +850,29 @@
       "layovers": [],
       "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
       "trip_id": "3Kn2hYlpDlaV9TmAFlpsKZ6LUNW",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3254": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3254",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "JFK",
+      "destination": "EDI",
+      "flight_numbers": "EI106, EI3254",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 87500,
+      "taxes": 3040,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T21:00:00Z",
+      "arrives_at": "2027-07-10T12:55:00Z",
+      "total_duration_min": 655,
+      "layovers": [],
+      "availability_id": "3Gq0dOLq26dRImzrU2fKoJTr8tA",
+      "trip_id": "3Kn2hVyWpJp1LGxr7P22g2KkgaU",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|alaska|economy|JFK|EDI|EI106, EI3252": {
@@ -1116,7 +1116,7 @@
       "flight_numbers": "KL642, KL923",
       "carriers": "KL, KL",
       "stops": 1,
-      "seats": 6,
+      "seats": 7,
       "mileage": 38500,
       "taxes": 16440,
       "taxes_currency": "USD",
@@ -1427,29 +1427,6 @@
       "trip_id": "3Ht8A5kBYsEtEWhQW7KpDNs8lYr",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4805, AA1535": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4805, AA1535",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "AA4805, AA1535",
-      "carriers": "AA, AA",
-      "stops": 1,
-      "seats": 7,
-      "mileage": 232000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T05:39:00Z",
-      "arrives_at": "2027-07-09T21:00:00Z",
-      "total_duration_min": 621,
-      "layovers": [],
-      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3KFXidzQ05XAuDJZ3LhGW5kWrir",
-      "leg": "outbound"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4805, AA142": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4805, AA142",
       "search": "Outbound RDU -> GLA/EDI",
@@ -1471,6 +1448,29 @@
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3JbFh41jHXjMLY2gaOLk376lmYO",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4805, AA1535": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4805, AA1535",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "AA4805, AA1535",
+      "carriers": "AA, AA",
+      "stops": 1,
+      "seats": 7,
+      "mileage": 232000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T05:39:00Z",
+      "arrives_at": "2027-07-09T21:00:00Z",
+      "total_duration_min": 621,
+      "layovers": [],
+      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
+      "trip_id": "3KFXidzQ05XAuDJZ3LhGW5kWrir",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4430, AA100": {
@@ -1611,29 +1611,6 @@
       "trip_id": "3KvnfzjPkQZFoMLdzkeTvIuQVkU",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA728": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA728",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "AA2403, AA728",
-      "carriers": "AA, AA",
-      "stops": 1,
-      "seats": 7,
-      "mileage": 229000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T13:11:00Z",
-      "arrives_at": "2027-07-10T10:20:00Z",
-      "total_duration_min": 969,
-      "layovers": [],
-      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3K7HLZJKoklOmwvZWoTQ0cCiODm",
-      "leg": "outbound"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA736": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA736",
       "search": "Outbound RDU -> GLA/EDI",
@@ -1655,6 +1632,29 @@
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3IUfx8ajKxYp9yEvv45hfqfhmVa",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA728": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2403, AA728",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "AA2403, AA728",
+      "carriers": "AA, AA",
+      "stops": 1,
+      "seats": 7,
+      "mileage": 229000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T13:11:00Z",
+      "arrives_at": "2027-07-10T10:20:00Z",
+      "total_duration_min": 969,
+      "layovers": [],
+      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
+      "trip_id": "3K7HLZJKoklOmwvZWoTQ0cCiODm",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4756, AA86": {
@@ -1680,29 +1680,6 @@
       "trip_id": "3Kp1lxQLqO0tc9QL65An7qfj1UW",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4346, AA46": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4346, AA46",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "AA4346, AA46",
-      "carriers": "AA, AA",
-      "stops": 1,
-      "seats": 7,
-      "mileage": 161000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T16:14:00Z",
-      "arrives_at": "2027-07-10T10:30:00Z",
-      "total_duration_min": 796,
-      "layovers": [],
-      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3Kp1lxFnFkFOUsVdiCbPIPF8WbQ",
-      "leg": "outbound"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4346, AA98": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4346, AA98",
       "search": "Outbound RDU -> GLA/EDI",
@@ -1724,6 +1701,29 @@
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3Kvng0H3UKRBGF3VHIMBX41ZSB7",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4346, AA46": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA4346, AA46",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "AA4346, AA46",
+      "carriers": "AA, AA",
+      "stops": 1,
+      "seats": 7,
+      "mileage": 161000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T16:14:00Z",
+      "arrives_at": "2027-07-10T10:30:00Z",
+      "total_duration_min": 796,
+      "layovers": [],
+      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
+      "trip_id": "3Kp1lxFnFkFOUsVdiCbPIPF8WbQ",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA2642, AA732": {
@@ -1818,29 +1818,6 @@
       "trip_id": "3J6RY3SQJKHgHDcFhdY68GfHeBJ",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1380": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1380",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "RDU",
-      "destination": "LHR",
-      "flight_numbers": "AF75, AF1380",
-      "carriers": "AF, AF",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 94000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T18:10:00Z",
-      "arrives_at": "2027-07-10T21:25:00Z",
-      "total_duration_min": 1335,
-      "layovers": [],
-      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
-      "trip_id": "3HwxQgSpMsIFbpEgJacLmCwMfBe",
-      "leg": "outbound"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1280": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1280",
       "search": "Outbound RDU -> GLA/EDI",
@@ -1885,6 +1862,29 @@
       "layovers": [],
       "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
       "trip_id": "3J6RY2OKxaAFs17dVcfv7z4Ft7Z",
+      "leg": "outbound"
+    },
+    "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1380": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AF75, AF1380",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "RDU",
+      "destination": "LHR",
+      "flight_numbers": "AF75, AF1380",
+      "carriers": "AF, AF",
+      "stops": 1,
+      "seats": 9,
+      "mileage": 94000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T18:10:00Z",
+      "arrives_at": "2027-07-10T21:25:00Z",
+      "total_duration_min": 1335,
+      "layovers": [],
+      "availability_id": "3HqUgyUvOUQLHE18BQizKbGGnhf",
+      "trip_id": "3HwxQgSpMsIFbpEgJacLmCwMfBe",
       "leg": "outbound"
     },
     "Outbound RDU -> GLA/EDI|2027-07-09|smiles|economy|RDU|LHR|AA3696, AA98": {
@@ -1979,29 +1979,6 @@
       "trip_id": "3HrCiTykfeeEmygql8F182itesJ",
       "leg": "outbound"
     },
-    "Outbound RDU -> GLA/EDI|2027-07-09|delta|economy|JFK|EDI|KL644, KL927": {
-      "key": "Outbound RDU -> GLA/EDI|2027-07-09|delta|economy|JFK|EDI|KL644, KL927",
-      "search": "Outbound RDU -> GLA/EDI",
-      "date": "2027-07-09",
-      "source": "delta",
-      "cabin": "economy",
-      "origin": "JFK",
-      "destination": "EDI",
-      "flight_numbers": "KL644, KL927",
-      "carriers": "KL, KL",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 63600,
-      "taxes": 3540,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-09T21:10:00Z",
-      "arrives_at": "2027-07-10T12:20:00Z",
-      "total_duration_min": 610,
-      "layovers": [],
-      "availability_id": "3HqUtMONV6g6k7yRtVLBxOrX4Ur",
-      "trip_id": "3HrCiUT0WnKeWbprbz8eZCKc86R",
-      "leg": "outbound"
-    },
     "Outbound RDU -> GLA/EDI|2027-07-09|delta|economy|JFK|EDI|KL644, KL929": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|delta|economy|JFK|EDI|KL644, KL929",
       "search": "Outbound RDU -> GLA/EDI",
@@ -2025,6 +2002,29 @@
       "trip_id": "3HrCiTB0au71Sg9LeQOwhhORFvi",
       "leg": "outbound"
     },
+    "Outbound RDU -> GLA/EDI|2027-07-09|delta|economy|JFK|EDI|KL644, KL927": {
+      "key": "Outbound RDU -> GLA/EDI|2027-07-09|delta|economy|JFK|EDI|KL644, KL927",
+      "search": "Outbound RDU -> GLA/EDI",
+      "date": "2027-07-09",
+      "source": "delta",
+      "cabin": "economy",
+      "origin": "JFK",
+      "destination": "EDI",
+      "flight_numbers": "KL644, KL927",
+      "carriers": "KL, KL",
+      "stops": 1,
+      "seats": 9,
+      "mileage": 63600,
+      "taxes": 3540,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-09T21:10:00Z",
+      "arrives_at": "2027-07-10T12:20:00Z",
+      "total_duration_min": 610,
+      "layovers": [],
+      "availability_id": "3HqUtMONV6g6k7yRtVLBxOrX4Ur",
+      "trip_id": "3HrCiUT0WnKeWbprbz8eZCKc86R",
+      "leg": "outbound"
+    },
     "Outbound RDU -> GLA/EDI|2027-07-09|jetblue|economy|JFK|EDI|B6618, B61079": {
       "key": "Outbound RDU -> GLA/EDI|2027-07-09|jetblue|economy|JFK|EDI|B6618, B61079",
       "search": "Outbound RDU -> GLA/EDI",
@@ -2036,7 +2036,7 @@
       "flight_numbers": "B6618, B61079",
       "carriers": "B6, B6",
       "stops": 1,
-      "seats": 3,
+      "seats": 4,
       "mileage": 42600,
       "taxes": 560,
       "taxes_currency": "USD",
@@ -2059,7 +2059,7 @@
       "flight_numbers": "B6818, B61079",
       "carriers": "B6, B6",
       "stops": 1,
-      "seats": 3,
+      "seats": 4,
       "mileage": 42600,
       "taxes": 560,
       "taxes_currency": "USD",
@@ -2715,29 +2715,6 @@
       "trip_id": "3Kmc0LLvXVHoIfZvJhSi3CDphoC",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|alaska|economy|EDI|JFK|EI3555, EI107": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|alaska|economy|EDI|JFK|EI3555, EI107",
-      "search": "Return GLA/EDI -> RDU",
-      "date": "2027-07-19",
-      "source": "alaska",
-      "cabin": "economy",
-      "origin": "EDI",
-      "destination": "JFK",
-      "flight_numbers": "EI3555, EI107",
-      "carriers": "EI",
-      "stops": 1,
-      "seats": 4,
-      "mileage": 87500,
-      "taxes": 23269,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-19T11:10:00Z",
-      "arrives_at": "2027-07-19T19:15:00Z",
-      "total_duration_min": 785,
-      "layovers": [],
-      "availability_id": "3HIFGDDroSqW37rfANFWkZnP8F1",
-      "trip_id": "3Kmc0NecNmI4NQjag2XHA71i5Jd",
-      "leg": "return"
-    },
     "Return GLA/EDI -> RDU|2027-07-19|alaska|economy|EDI|JFK|EI3555, EI109": {
       "key": "Return GLA/EDI -> RDU|2027-07-19|alaska|economy|EDI|JFK|EI3555, EI109",
       "search": "Return GLA/EDI -> RDU",
@@ -2759,6 +2736,29 @@
       "layovers": [],
       "availability_id": "3HIFGDDroSqW37rfANFWkZnP8F1",
       "trip_id": "3IGxtoy8muyKERTKfYwWDDFQwTB",
+      "leg": "return"
+    },
+    "Return GLA/EDI -> RDU|2027-07-19|alaska|economy|EDI|JFK|EI3555, EI107": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|alaska|economy|EDI|JFK|EI3555, EI107",
+      "search": "Return GLA/EDI -> RDU",
+      "date": "2027-07-19",
+      "source": "alaska",
+      "cabin": "economy",
+      "origin": "EDI",
+      "destination": "JFK",
+      "flight_numbers": "EI3555, EI107",
+      "carriers": "EI",
+      "stops": 1,
+      "seats": 4,
+      "mileage": 87500,
+      "taxes": 23269,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-19T11:10:00Z",
+      "arrives_at": "2027-07-19T19:15:00Z",
+      "total_duration_min": 785,
+      "layovers": [],
+      "availability_id": "3HIFGDDroSqW37rfANFWkZnP8F1",
+      "trip_id": "3Kmc0NecNmI4NQjag2XHA71i5Jd",
       "leg": "return"
     },
     "Return GLA/EDI -> RDU|2027-07-19|alaska|economy|EDI|JFK|EI3253, EI107": {
@@ -3014,6 +3014,29 @@
       "trip_id": "3IGann88arl6uP3jIO4OUyJN138",
       "leg": "return"
     },
+    "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA311, UA1357": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA311, UA1357",
+      "search": "Return GLA/EDI -> RDU",
+      "date": "2027-07-19",
+      "source": "united",
+      "cabin": "economy",
+      "origin": "DUB",
+      "destination": "RDU",
+      "flight_numbers": "UA311, UA1357",
+      "carriers": "UA, UA",
+      "stops": 1,
+      "seats": 9,
+      "mileage": 62300,
+      "taxes": 5249,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-19T08:50:00Z",
+      "arrives_at": "2027-07-19T13:55:00Z",
+      "total_duration_min": 605,
+      "layovers": [],
+      "availability_id": "3HzEdQ8U2BNCEFfNZfgJFEDa0IE",
+      "trip_id": "3IJqI5Ggtg8b7CcKRaD6rFbxla2",
+      "leg": "return"
+    },
     "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA311, UA2382": {
       "key": "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA311, UA2382",
       "search": "Return GLA/EDI -> RDU",
@@ -3060,29 +3083,6 @@
       "trip_id": "3IyLn5g9ia77g8SMbIN9U8cAc2G",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA311, UA1357": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA311, UA1357",
-      "search": "Return GLA/EDI -> RDU",
-      "date": "2027-07-19",
-      "source": "united",
-      "cabin": "economy",
-      "origin": "DUB",
-      "destination": "RDU",
-      "flight_numbers": "UA311, UA1357",
-      "carriers": "UA, UA",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 62300,
-      "taxes": 5249,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-19T08:50:00Z",
-      "arrives_at": "2027-07-19T13:55:00Z",
-      "total_duration_min": 605,
-      "layovers": [],
-      "availability_id": "3HzEdQ8U2BNCEFfNZfgJFEDa0IE",
-      "trip_id": "3IJqI5Ggtg8b7CcKRaD6rFbxla2",
-      "leg": "return"
-    },
     "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA22, UA1407": {
       "key": "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA22, UA1407",
       "search": "Return GLA/EDI -> RDU",
@@ -3106,29 +3106,6 @@
       "trip_id": "3IJqI0OThL7Z3vS4fwrZ8PmLaNE",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA981, UA1989": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA981, UA1989",
-      "search": "Return GLA/EDI -> RDU",
-      "date": "2027-07-19",
-      "source": "united",
-      "cabin": "economy",
-      "origin": "DUB",
-      "destination": "RDU",
-      "flight_numbers": "UA981, UA1989",
-      "carriers": "UA, UA",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 62300,
-      "taxes": 5249,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-19T11:35:00Z",
-      "arrives_at": "2027-07-19T21:02:00Z",
-      "total_duration_min": 867,
-      "layovers": [],
-      "availability_id": "3HzEdQ8U2BNCEFfNZfgJFEDa0IE",
-      "trip_id": "3IJqI4iY7Lm3pNrPE9KNu1epUUc",
-      "leg": "return"
-    },
     "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA981, UA3658": {
       "key": "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA981, UA3658",
       "search": "Return GLA/EDI -> RDU",
@@ -3150,6 +3127,29 @@
       "layovers": [],
       "availability_id": "3HzEdQ8U2BNCEFfNZfgJFEDa0IE",
       "trip_id": "3IJqI0Cr527Q1YHSeDQ7BU95jGq",
+      "leg": "return"
+    },
+    "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA981, UA1989": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA981, UA1989",
+      "search": "Return GLA/EDI -> RDU",
+      "date": "2027-07-19",
+      "source": "united",
+      "cabin": "economy",
+      "origin": "DUB",
+      "destination": "RDU",
+      "flight_numbers": "UA981, UA1989",
+      "carriers": "UA, UA",
+      "stops": 1,
+      "seats": 9,
+      "mileage": 62300,
+      "taxes": 5249,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-19T11:35:00Z",
+      "arrives_at": "2027-07-19T21:02:00Z",
+      "total_duration_min": 867,
+      "layovers": [],
+      "availability_id": "3HzEdQ8U2BNCEFfNZfgJFEDa0IE",
+      "trip_id": "3IJqI4iY7Lm3pNrPE9KNu1epUUc",
       "leg": "return"
     },
     "Return GLA/EDI -> RDU|2027-07-19|united|economy|DUB|RDU|UA229, UA2344": {
@@ -3211,7 +3211,7 @@
       "stops": 1,
       "seats": 4,
       "mileage": 49000,
-      "taxes": 21239,
+      "taxes": 21269,
       "taxes_currency": "USD",
       "departs_at": "2027-07-19T19:40:00Z",
       "arrives_at": "2027-07-20T11:50:00Z",
@@ -3234,7 +3234,7 @@
       "stops": 1,
       "seats": 4,
       "mileage": 49000,
-      "taxes": 21239,
+      "taxes": 21269,
       "taxes_currency": "USD",
       "departs_at": "2027-07-19T20:25:00Z",
       "arrives_at": "2027-07-20T11:50:00Z",
@@ -3359,29 +3359,6 @@
       "trip_id": "3IGOEQ4N6tLett56KrjORLbk6Mf",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|jetblue|economy|EDI|BOS|B672, B6818": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|jetblue|economy|EDI|BOS|B672, B6818",
-      "search": "Return GLA/EDI -> RDU",
-      "date": "2027-07-19",
-      "source": "jetblue",
-      "cabin": "economy",
-      "origin": "EDI",
-      "destination": "BOS",
-      "flight_numbers": "B672, B6818",
-      "carriers": "B6, B6",
-      "stops": 1,
-      "seats": 9,
-      "mileage": 87000,
-      "taxes": 14918,
-      "taxes_currency": "GBP",
-      "departs_at": "2027-07-19T12:10:00Z",
-      "arrives_at": "2027-07-19T20:04:00Z",
-      "total_duration_min": 774,
-      "layovers": [],
-      "availability_id": "3IFVMban7apvygFmOtZK0R4Kxej",
-      "trip_id": "3IGL0RfzhNAFpjve54XfzPiRtbC",
-      "leg": "return"
-    },
     "Return GLA/EDI -> RDU|2027-07-19|jetblue|economy|EDI|BOS|B672, B61318": {
       "key": "Return GLA/EDI -> RDU|2027-07-19|jetblue|economy|EDI|BOS|B672, B61318",
       "search": "Return GLA/EDI -> RDU",
@@ -3403,6 +3380,29 @@
       "layovers": [],
       "availability_id": "3IFVMban7apvygFmOtZK0R4Kxej",
       "trip_id": "3IIFQLWLPYWPX5mvZuQyLuItHdg",
+      "leg": "return"
+    },
+    "Return GLA/EDI -> RDU|2027-07-19|jetblue|economy|EDI|BOS|B672, B6818": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|jetblue|economy|EDI|BOS|B672, B6818",
+      "search": "Return GLA/EDI -> RDU",
+      "date": "2027-07-19",
+      "source": "jetblue",
+      "cabin": "economy",
+      "origin": "EDI",
+      "destination": "BOS",
+      "flight_numbers": "B672, B6818",
+      "carriers": "B6, B6",
+      "stops": 1,
+      "seats": 9,
+      "mileage": 87000,
+      "taxes": 14918,
+      "taxes_currency": "GBP",
+      "departs_at": "2027-07-19T12:10:00Z",
+      "arrives_at": "2027-07-19T20:04:00Z",
+      "total_duration_min": 774,
+      "layovers": [],
+      "availability_id": "3IFVMban7apvygFmOtZK0R4Kxej",
+      "trip_id": "3IGL0RfzhNAFpjve54XfzPiRtbC",
       "leg": "return"
     },
     "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|EDI|PHL|AA279": {
@@ -3428,27 +3428,27 @@
       "trip_id": "3IMx2dDFZ99uLhXmV9rZdRWzVXh",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA5590": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA5590",
+    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA5638": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA5638",
       "search": "Return GLA/EDI -> RDU",
       "date": "2027-07-19",
       "source": "smiles",
       "cabin": "economy",
       "origin": "LHR",
       "destination": "RDU",
-      "flight_numbers": "AA729, AA5590",
+      "flight_numbers": "AA729, AA5638",
       "carriers": "AA, AA",
       "stops": 1,
-      "seats": 3,
+      "seats": 7,
       "mileage": 229000,
       "taxes": 0,
       "taxes_currency": "USD",
       "departs_at": "2027-07-19T08:20:00Z",
-      "arrives_at": "2027-07-19T19:11:00Z",
-      "total_duration_min": 951,
+      "arrives_at": "2027-07-19T14:45:00Z",
+      "total_duration_min": 685,
       "layovers": [],
       "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
-      "trip_id": "3IMtLyv4r4kesE5OoL2dhXaLymW",
+      "trip_id": "3IMtLw2mLGJeT1CBEDOPoqS9BOM",
       "leg": "return"
     },
     "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA2510": {
@@ -3474,27 +3474,27 @@
       "trip_id": "3Ifgl3RczVurN4RykkHJ1xDx7YR",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA5638": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA5638",
+    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA5590": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA729, AA5590",
       "search": "Return GLA/EDI -> RDU",
       "date": "2027-07-19",
       "source": "smiles",
       "cabin": "economy",
       "origin": "LHR",
       "destination": "RDU",
-      "flight_numbers": "AA729, AA5638",
+      "flight_numbers": "AA729, AA5590",
       "carriers": "AA, AA",
       "stops": 1,
-      "seats": 7,
+      "seats": 3,
       "mileage": 229000,
       "taxes": 0,
       "taxes_currency": "USD",
       "departs_at": "2027-07-19T08:20:00Z",
-      "arrives_at": "2027-07-19T14:45:00Z",
-      "total_duration_min": 685,
+      "arrives_at": "2027-07-19T19:11:00Z",
+      "total_duration_min": 951,
       "layovers": [],
       "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
-      "trip_id": "3IMtLw2mLGJeT1CBEDOPoqS9BOM",
+      "trip_id": "3IMtLyv4r4kesE5OoL2dhXaLymW",
       "leg": "return"
     },
     "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA731, AA494": {
@@ -3520,29 +3520,6 @@
       "trip_id": "3L1EHhltUtmsBZmsaO80Fa1i2mV",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA101, AA4668": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA101, AA4668",
-      "search": "Return GLA/EDI -> RDU",
-      "date": "2027-07-19",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "LHR",
-      "destination": "RDU",
-      "flight_numbers": "AA101, AA4668",
-      "carriers": "AA, AA",
-      "stops": 1,
-      "seats": 7,
-      "mileage": 232000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-19T09:15:00Z",
-      "arrives_at": "2027-07-19T18:43:00Z",
-      "total_duration_min": 868,
-      "layovers": [],
-      "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
-      "trip_id": "3IMtLw2iHQLuatHMZtyjsw4gc3Y",
-      "leg": "return"
-    },
     "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA101, AA4506": {
       "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA101, AA4506",
       "search": "Return GLA/EDI -> RDU",
@@ -3564,6 +3541,29 @@
       "layovers": [],
       "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
       "trip_id": "3IMtLxqF11Ytr4BjO9tFzousRAX",
+      "leg": "return"
+    },
+    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA101, AA4668": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA101, AA4668",
+      "search": "Return GLA/EDI -> RDU",
+      "date": "2027-07-19",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "LHR",
+      "destination": "RDU",
+      "flight_numbers": "AA101, AA4668",
+      "carriers": "AA, AA",
+      "stops": 1,
+      "seats": 7,
+      "mileage": 232000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-19T09:15:00Z",
+      "arrives_at": "2027-07-19T18:43:00Z",
+      "total_duration_min": 868,
+      "layovers": [],
+      "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
+      "trip_id": "3IMtLw2iHQLuatHMZtyjsw4gc3Y",
       "leg": "return"
     },
     "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA731, AA2616": {
@@ -3773,29 +3773,6 @@
       "trip_id": "3L1EHhvL2pelcg2tCVDaXxYLv6i",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA735, AA3178": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA735, AA3178",
-      "search": "Return GLA/EDI -> RDU",
-      "date": "2027-07-19",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "LHR",
-      "destination": "RDU",
-      "flight_numbers": "AA735, AA3178",
-      "carriers": "AA, AA",
-      "stops": 1,
-      "seats": 7,
-      "mileage": 236000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-19T12:15:00Z",
-      "arrives_at": "2027-07-19T21:55:00Z",
-      "total_duration_min": 880,
-      "layovers": [],
-      "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
-      "trip_id": "3L1EHm8qUR6WLqAB7VqFk4ybyYf",
-      "leg": "return"
-    },
     "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA735, AA2615": {
       "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA735, AA2615",
       "search": "Return GLA/EDI -> RDU",
@@ -3817,6 +3794,29 @@
       "layovers": [],
       "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
       "trip_id": "3IMtLrv41qxjPDjGFvUg7caMcx1",
+      "leg": "return"
+    },
+    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA735, AA3178": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA735, AA3178",
+      "search": "Return GLA/EDI -> RDU",
+      "date": "2027-07-19",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "LHR",
+      "destination": "RDU",
+      "flight_numbers": "AA735, AA3178",
+      "carriers": "AA, AA",
+      "stops": 1,
+      "seats": 7,
+      "mileage": 236000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-19T12:15:00Z",
+      "arrives_at": "2027-07-19T21:55:00Z",
+      "total_duration_min": 880,
+      "layovers": [],
+      "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
+      "trip_id": "3L1EHm8qUR6WLqAB7VqFk4ybyYf",
       "leg": "return"
     },
     "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA55, AA4615": {
@@ -3911,29 +3911,6 @@
       "trip_id": "3JwAOckLb1aQaO6VolPMfTJOKhd",
       "leg": "return"
     },
-    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA103, AA4804": {
-      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA103, AA4804",
-      "search": "Return GLA/EDI -> RDU",
-      "date": "2027-07-19",
-      "source": "smiles",
-      "cabin": "economy",
-      "origin": "LHR",
-      "destination": "RDU",
-      "flight_numbers": "AA103, AA4804",
-      "carriers": "AA, AA",
-      "stops": 1,
-      "seats": 7,
-      "mileage": 232000,
-      "taxes": 0,
-      "taxes_currency": "USD",
-      "departs_at": "2027-07-19T15:00:00Z",
-      "arrives_at": "2027-07-19T22:09:00Z",
-      "total_duration_min": 729,
-      "layovers": [],
-      "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
-      "trip_id": "3IMtLsKatyenkTAw1afCck3rPKc",
-      "leg": "return"
-    },
     "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA103, AA4573": {
       "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA103, AA4573",
       "search": "Return GLA/EDI -> RDU",
@@ -3955,6 +3932,29 @@
       "layovers": [],
       "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
       "trip_id": "3IMtLt79CohVKBlobZ2j09B0ByJ",
+      "leg": "return"
+    },
+    "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA103, AA4804": {
+      "key": "Return GLA/EDI -> RDU|2027-07-19|smiles|economy|LHR|RDU|AA103, AA4804",
+      "search": "Return GLA/EDI -> RDU",
+      "date": "2027-07-19",
+      "source": "smiles",
+      "cabin": "economy",
+      "origin": "LHR",
+      "destination": "RDU",
+      "flight_numbers": "AA103, AA4804",
+      "carriers": "AA, AA",
+      "stops": 1,
+      "seats": 7,
+      "mileage": 232000,
+      "taxes": 0,
+      "taxes_currency": "USD",
+      "departs_at": "2027-07-19T15:00:00Z",
+      "arrives_at": "2027-07-19T22:09:00Z",
+      "total_duration_min": 729,
+      "layovers": [],
+      "availability_id": "3IKI0jKitKZXIbp1WI9eLuZlNhB",
+      "trip_id": "3IMtLsKatyenkTAw1afCck3rPKc",
       "leg": "return"
     },
     "Return GLA/EDI -> RDU|2027-07-19|delta|economy|EDI|ATL|WS37, DL2714": {
@@ -4027,28 +4027,28 @@
       "lowest": {
         "leg": "outbound",
         "cabin": "economy",
-        "price": 443,
+        "price": 449,
         "origin": "RDU",
         "destination": "EDI",
-        "departs_at": "2027-07-09 17:50",
-        "arrives_at": "2027-07-10 09:20",
+        "departs_at": "2027-07-09 20:25",
+        "arrives_at": "2027-07-10 19:50",
         "airlines": [
-          "JetBlue"
+          "Aer Lingus"
         ],
-        "flight_numbers": "B6 2286, B6 73",
+        "flight_numbers": "EI 84, EI 3258",
         "stops": 1,
         "layovers": [
           {
-            "airport": "JFK",
-            "hours": 1.77
+            "airport": "DUB",
+            "hours": 9.75
           }
         ],
-        "total_duration_min": 630
+        "total_duration_min": 1105
       },
       "lowest_clean": {
         "leg": "outbound",
         "cabin": "economy",
-        "price": 443,
+        "price": 453,
         "origin": "RDU",
         "destination": "EDI",
         "departs_at": "2027-07-09 17:50",
@@ -4066,14 +4066,14 @@
         ],
         "total_duration_min": 630
       },
-      "count": 11,
+      "count": 12,
       "error": null
     },
     "return|economy": {
       "lowest": {
         "leg": "return",
         "cabin": "economy",
-        "price": 878,
+        "price": 877,
         "origin": "EDI",
         "destination": "RDU",
         "departs_at": "2027-07-19 12:10",
@@ -4094,7 +4094,7 @@
       "lowest_clean": {
         "leg": "return",
         "cabin": "economy",
-        "price": 1019,
+        "price": 1018,
         "origin": "GLA",
         "destination": "RDU",
         "departs_at": "2027-07-19 12:00",
@@ -4141,7 +4141,7 @@
       "lowest_clean": {
         "leg": "roundtrip",
         "cabin": "economy",
-        "price": 1164,
+        "price": 1202,
         "origin": "RDU",
         "destination": "GLA",
         "departs_at": "2027-07-09 20:30",
@@ -4205,14 +4205,14 @@
         ],
         "total_duration_min": 715
       },
-      "count": 12,
+      "count": 9,
       "error": null
     },
     "return|business": {
       "lowest": {
         "leg": "return",
         "cabin": "business",
-        "price": 2286,
+        "price": 2285,
         "origin": "GLA",
         "destination": "RDU",
         "departs_at": "2027-07-19 14:20",
@@ -4233,7 +4233,7 @@
       "lowest_clean": {
         "leg": "return",
         "cabin": "business",
-        "price": 2870,
+        "price": 2869,
         "origin": "GLA",
         "destination": "RDU",
         "departs_at": "2027-07-19 14:20",
@@ -4251,7 +4251,7 @@
         ],
         "total_duration_min": 610
       },
-      "count": 12,
+      "count": 13,
       "error": null
     },
     "roundtrip|business": {
@@ -4297,13 +4297,23 @@
         ],
         "total_duration_min": 715
       },
-      "count": 9,
+      "count": 11,
       "error": null
     }
   },
   "positioning": {
-    "fetched_at": "2026-10-19T17:05:22.746851+00:00",
+    "fetched_at": "2026-10-24T14:05:39.755991+00:00",
     "fares": [
+      {
+        "tag": "euro_out",
+        "price": 52,
+        "origin": "DUB",
+        "destination": "GLA",
+        "dep": "2027-07-09 13:35",
+        "arr": "2027-07-09 14:35",
+        "airline": "Ryanair",
+        "flight_numbers": "FR 5563"
+      },
       {
         "tag": "euro_out",
         "price": 53,
@@ -4313,16 +4323,6 @@
         "arr": "2027-07-09 19:50",
         "airline": "Aer Lingus",
         "flight_numbers": "EI 3258"
-      },
-      {
-        "tag": "euro_out",
-        "price": 61,
-        "origin": "DUB",
-        "destination": "GLA",
-        "dep": "2027-07-09 13:35",
-        "arr": "2027-07-09 14:35",
-        "airline": "Ryanair",
-        "flight_numbers": "FR 5563"
       },
       {
         "tag": "euro_out",
@@ -4336,7 +4336,17 @@
       },
       {
         "tag": "euro_out",
-        "price": 61,
+        "price": 89,
+        "origin": "LHR",
+        "destination": "EDI",
+        "dep": "2027-07-09 07:00",
+        "arr": "2027-07-09 08:25",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1438"
+      },
+      {
+        "tag": "euro_out",
+        "price": 52,
         "origin": "DUB",
         "destination": "GLA",
         "dep": "2027-07-09 06:30",
@@ -4346,7 +4356,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 61,
+        "price": 52,
         "origin": "DUB",
         "destination": "GLA",
         "dep": "2027-07-09 21:00",
@@ -4356,7 +4366,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 72,
+        "price": 63,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 07:30",
@@ -4366,7 +4376,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 72,
+        "price": 63,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 09:05",
@@ -4376,7 +4386,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 72,
+        "price": 63,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 13:30",
@@ -4386,7 +4396,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 72,
+        "price": 63,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 15:00",
@@ -4396,7 +4406,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 72,
+        "price": 63,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 19:20",
@@ -4426,17 +4436,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 89,
-        "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-09 07:00",
-        "arr": "2027-07-09 08:25",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1438"
-      },
-      {
-        "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 06:40",
@@ -4446,7 +4446,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "GLA",
         "dep": "2027-07-09 06:50",
@@ -4456,7 +4456,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 07:10",
@@ -4466,7 +4466,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "GLA",
         "dep": "2027-07-09 07:40",
@@ -4476,7 +4476,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 07:50",
@@ -4486,7 +4486,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "GLA",
         "dep": "2027-07-09 11:30",
@@ -4496,7 +4496,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "GLA",
         "dep": "2027-07-09 14:10",
@@ -4506,7 +4506,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-09 17:50",
@@ -4536,7 +4536,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 114,
+        "price": 115,
         "origin": "LHR",
         "destination": "EDI",
         "dep": "2027-07-09 21:45",
@@ -4546,13 +4546,13 @@
       },
       {
         "tag": "euro_out",
-        "price": 129,
+        "price": 139,
         "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-09 07:55",
-        "arr": "2027-07-09 09:20",
+        "destination": "GLA",
+        "dep": "2027-07-09 17:20",
+        "arr": "2027-07-09 18:50",
         "airline": "British Airways",
-        "flight_numbers": "BA 1440"
+        "flight_numbers": "BA 1490"
       },
       {
         "tag": "euro_out",
@@ -4586,17 +4586,17 @@
       },
       {
         "tag": "euro_out",
-        "price": 141,
+        "price": 150,
         "origin": "LHR",
-        "destination": "GLA",
-        "dep": "2027-07-09 17:20",
-        "arr": "2027-07-09 18:50",
+        "destination": "EDI",
+        "dep": "2027-07-09 07:55",
+        "arr": "2027-07-09 09:20",
         "airline": "British Airways",
-        "flight_numbers": "BA 1490"
+        "flight_numbers": "BA 1440"
       },
       {
         "tag": "euro_out",
-        "price": 149,
+        "price": 159,
         "origin": "LHR",
         "destination": "EDI",
         "dep": "2027-07-09 20:40",
@@ -4606,17 +4606,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 161,
-        "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-09 16:05",
-        "arr": "2027-07-09 17:35",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1456"
-      },
-      {
-        "tag": "euro_out",
-        "price": 171,
+        "price": 172,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-09 10:00",
@@ -4626,7 +4616,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 171,
+        "price": 172,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-09 18:15",
@@ -4636,7 +4626,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 182,
+        "price": 179,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-09 14:35",
@@ -4646,33 +4636,33 @@
       },
       {
         "tag": "euro_out",
-        "price": 185,
-        "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-09 17:20",
-        "arr": "2027-07-09 18:50",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1458"
-      },
-      {
-        "tag": "euro_out",
-        "price": 185,
-        "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-09 18:00",
-        "arr": "2027-07-09 19:25",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1460"
-      },
-      {
-        "tag": "euro_out",
-        "price": 186,
+        "price": 182,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-09 21:15",
         "arr": "2027-07-09 22:30",
         "airline": "British Airways",
         "flight_numbers": "BA 1498"
+      },
+      {
+        "tag": "euro_out",
+        "price": 186,
+        "origin": "LHR",
+        "destination": "EDI",
+        "dep": "2027-07-09 16:05",
+        "arr": "2027-07-09 17:35",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1456"
+      },
+      {
+        "tag": "euro_out",
+        "price": 188,
+        "origin": "LHR",
+        "destination": "EDI",
+        "dep": "2027-07-09 17:20",
+        "arr": "2027-07-09 18:50",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1458"
       },
       {
         "tag": "euro_out",
@@ -4686,7 +4676,17 @@
       },
       {
         "tag": "euro_out",
-        "price": 206,
+        "price": 202,
+        "origin": "LHR",
+        "destination": "EDI",
+        "dep": "2027-07-09 18:00",
+        "arr": "2027-07-09 19:25",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1460"
+      },
+      {
+        "tag": "euro_out",
+        "price": 217,
         "origin": "LHR",
         "destination": "EDI",
         "dep": "2027-07-09 08:55",
@@ -4696,17 +4696,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 214,
-        "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-09 14:55",
-        "arr": "2027-07-09 16:20",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1454"
-      },
-      {
-        "tag": "euro_out",
-        "price": 218,
+        "price": 219,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-09 16:00",
@@ -4716,7 +4706,17 @@
       },
       {
         "tag": "euro_out",
-        "price": 227,
+        "price": 237,
+        "origin": "LHR",
+        "destination": "EDI",
+        "dep": "2027-07-09 14:55",
+        "arr": "2027-07-09 16:20",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1454"
+      },
+      {
+        "tag": "euro_out",
+        "price": 241,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-09 12:05",
@@ -4726,7 +4726,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 249,
+        "price": 251,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-09 20:10",
@@ -4736,7 +4736,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 281,
+        "price": 277,
         "origin": "LHR",
         "destination": "EDI",
         "dep": "2027-07-09 12:55",
@@ -4746,7 +4746,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 37,
+        "price": 32,
         "origin": "DUB",
         "destination": "GLA",
         "dep": "2027-07-10 20:35",
@@ -4766,17 +4766,17 @@
       },
       {
         "tag": "euro_out",
-        "price": 68,
-        "origin": "DUB",
+        "price": 88,
+        "origin": "LHR",
         "destination": "GLA",
-        "dep": "2027-07-10 14:00",
-        "arr": "2027-07-10 15:00",
-        "airline": "Ryanair",
-        "flight_numbers": "FR 276"
+        "dep": "2027-07-10 18:55",
+        "arr": "2027-07-10 20:15",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1492"
       },
       {
         "tag": "euro_out",
-        "price": 61,
+        "price": 52,
         "origin": "DUB",
         "destination": "GLA",
         "dep": "2027-07-10 06:40",
@@ -4796,7 +4796,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 72,
+        "price": 63,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-10 07:45",
@@ -4806,7 +4806,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 72,
+        "price": 63,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-10 14:00",
@@ -4816,13 +4816,43 @@
       },
       {
         "tag": "euro_out",
-        "price": 72,
+        "price": 63,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-10 20:55",
         "arr": "2027-07-10 22:05",
         "airline": "Ryanair",
         "flight_numbers": "FR 816"
+      },
+      {
+        "tag": "euro_out",
+        "price": 67,
+        "origin": "DUB",
+        "destination": "GLA",
+        "dep": "2027-07-10 14:00",
+        "arr": "2027-07-10 15:00",
+        "airline": "Ryanair",
+        "flight_numbers": "FR 276"
+      },
+      {
+        "tag": "euro_out",
+        "price": 88,
+        "origin": "LHR",
+        "destination": "GLA",
+        "dep": "2027-07-10 08:10",
+        "arr": "2027-07-10 09:35",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1476"
+      },
+      {
+        "tag": "euro_out",
+        "price": 88,
+        "origin": "LHR",
+        "destination": "GLA",
+        "dep": "2027-07-10 20:55",
+        "arr": "2027-07-10 22:15",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1496"
       },
       {
         "tag": "euro_out",
@@ -4833,16 +4863,6 @@
         "arr": "2027-07-10 23:10",
         "airline": "British Airways",
         "flight_numbers": "BA 1498"
-      },
-      {
-        "tag": "euro_out",
-        "price": 89,
-        "origin": "LHR",
-        "destination": "GLA",
-        "dep": "2027-07-10 18:55",
-        "arr": "2027-07-10 20:15",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1492"
       },
       {
         "tag": "euro_out",
@@ -4886,27 +4906,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 96,
-        "origin": "LHR",
-        "destination": "GLA",
-        "dep": "2027-07-10 08:10",
-        "arr": "2027-07-10 09:35",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1476"
-      },
-      {
-        "tag": "euro_out",
-        "price": 96,
-        "origin": "LHR",
-        "destination": "GLA",
-        "dep": "2027-07-10 20:55",
-        "arr": "2027-07-10 22:15",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1496"
-      },
-      {
-        "tag": "euro_out",
-        "price": 101,
+        "price": 100,
         "origin": "DUB",
         "destination": "EDI",
         "dep": "2027-07-10 07:10",
@@ -4926,17 +4926,17 @@
       },
       {
         "tag": "euro_out",
-        "price": 114,
-        "origin": "LHR",
+        "price": 117,
+        "origin": "DUB",
         "destination": "EDI",
-        "dep": "2027-07-10 07:05",
-        "arr": "2027-07-10 08:30",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1440"
+        "dep": "2027-07-10 10:45",
+        "arr": "2027-07-10 11:55",
+        "airline": "Ryanair UK",
+        "flight_numbers": "RK 814"
       },
       {
         "tag": "euro_out",
-        "price": 114,
+        "price": 119,
         "origin": "LHR",
         "destination": "EDI",
         "dep": "2027-07-10 21:50",
@@ -4946,13 +4946,13 @@
       },
       {
         "tag": "euro_out",
-        "price": 117,
-        "origin": "DUB",
+        "price": 120,
+        "origin": "LHR",
         "destination": "EDI",
-        "dep": "2027-07-10 10:45",
-        "arr": "2027-07-10 11:55",
-        "airline": "Ryanair UK",
-        "flight_numbers": "RK 814"
+        "dep": "2027-07-10 07:05",
+        "arr": "2027-07-10 08:30",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1440"
       },
       {
         "tag": "euro_out",
@@ -5006,27 +5006,7 @@
       },
       {
         "tag": "euro_out",
-        "price": 153,
-        "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-10 18:20",
-        "arr": "2027-07-10 19:45",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1460"
-      },
-      {
-        "tag": "euro_out",
-        "price": 170,
-        "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-10 20:30",
-        "arr": "2027-07-10 21:50",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1464"
-      },
-      {
-        "tag": "euro_out",
-        "price": 171,
+        "price": 172,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-10 17:25",
@@ -5036,37 +5016,27 @@
       },
       {
         "tag": "euro_out",
-        "price": 201,
+        "price": 186,
         "origin": "LHR",
         "destination": "EDI",
-        "dep": "2027-07-10 08:55",
-        "arr": "2027-07-10 10:20",
+        "dep": "2027-07-10 18:20",
+        "arr": "2027-07-10 19:45",
         "airline": "British Airways",
-        "flight_numbers": "BA 1442"
+        "flight_numbers": "BA 1460"
       },
       {
         "tag": "euro_out",
-        "price": 213,
+        "price": 186,
         "origin": "LHR",
         "destination": "EDI",
-        "dep": "2027-07-10 11:25",
-        "arr": "2027-07-10 12:50",
+        "dep": "2027-07-10 20:30",
+        "arr": "2027-07-10 21:50",
         "airline": "British Airways",
-        "flight_numbers": "BA 1446"
+        "flight_numbers": "BA 1464"
       },
       {
         "tag": "euro_out",
-        "price": 214,
-        "origin": "LHR",
-        "destination": "EDI",
-        "dep": "2027-07-10 16:05",
-        "arr": "2027-07-10 17:35",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1456"
-      },
-      {
-        "tag": "euro_out",
-        "price": 218,
+        "price": 198,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-10 14:55",
@@ -5076,7 +5046,17 @@
       },
       {
         "tag": "euro_out",
-        "price": 242,
+        "price": 214,
+        "origin": "LHR",
+        "destination": "EDI",
+        "dep": "2027-07-10 08:55",
+        "arr": "2027-07-10 10:20",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1442"
+      },
+      {
+        "tag": "euro_out",
+        "price": 247,
         "origin": "LHR",
         "destination": "GLA",
         "dep": "2027-07-10 12:40",
@@ -5086,7 +5066,27 @@
       },
       {
         "tag": "euro_out",
-        "price": 281,
+        "price": 266,
+        "origin": "LHR",
+        "destination": "EDI",
+        "dep": "2027-07-10 11:25",
+        "arr": "2027-07-10 12:50",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1446"
+      },
+      {
+        "tag": "euro_out",
+        "price": 266,
+        "origin": "LHR",
+        "destination": "EDI",
+        "dep": "2027-07-10 16:05",
+        "arr": "2027-07-10 17:35",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1456"
+      },
+      {
+        "tag": "euro_out",
+        "price": 306,
         "origin": "LHR",
         "destination": "EDI",
         "dep": "2027-07-10 14:00",
@@ -5096,23 +5096,13 @@
       },
       {
         "tag": "euro_ret",
-        "price": 67,
+        "price": 57,
         "origin": "GLA",
         "destination": "DUB",
         "dep": "2027-07-19 15:55",
         "arr": "2027-07-19 16:55",
         "airline": "Ryanair",
         "flight_numbers": "FR 5562"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 86,
-        "origin": "GLA",
-        "destination": "DUB",
-        "dep": "2027-07-19 21:25",
-        "arr": "2027-07-19 22:40",
-        "airline": "Aer Lingus",
-        "flight_numbers": "EI 3229"
       },
       {
         "tag": "euro_ret",
@@ -5126,7 +5116,27 @@
       },
       {
         "tag": "euro_ret",
-        "price": 67,
+        "price": 90,
+        "origin": "GLA",
+        "destination": "LHR",
+        "dep": "2027-07-19 12:25",
+        "arr": "2027-07-19 13:55",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1479"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 90,
+        "origin": "GLA",
+        "destination": "LHR",
+        "dep": "2027-07-19 13:25",
+        "arr": "2027-07-19 14:55",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1483"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 57,
         "origin": "GLA",
         "destination": "DUB",
         "dep": "2027-07-19 21:25",
@@ -5143,6 +5153,16 @@
         "arr": "2027-07-19 10:05",
         "airline": "Ryanair",
         "flight_numbers": "FR 5150"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 86,
+        "origin": "GLA",
+        "destination": "DUB",
+        "dep": "2027-07-19 21:25",
+        "arr": "2027-07-19 22:40",
+        "airline": "Aer Lingus",
+        "flight_numbers": "EI 3229"
       },
       {
         "tag": "euro_ret",
@@ -5219,26 +5239,6 @@
         "price": 90,
         "origin": "GLA",
         "destination": "LHR",
-        "dep": "2027-07-19 12:25",
-        "arr": "2027-07-19 13:55",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1479"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 90,
-        "origin": "GLA",
-        "destination": "LHR",
-        "dep": "2027-07-19 13:25",
-        "arr": "2027-07-19 14:55",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1483"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 90,
-        "origin": "GLA",
-        "destination": "LHR",
         "dep": "2027-07-19 15:35",
         "arr": "2027-07-19 17:00",
         "airline": "British Airways",
@@ -5286,23 +5286,23 @@
       },
       {
         "tag": "euro_ret",
-        "price": 115,
-        "origin": "EDI",
-        "destination": "DUB",
-        "dep": "2027-07-19 07:55",
-        "arr": "2027-07-19 09:00",
-        "airline": "Ryanair",
-        "flight_numbers": "FR 817"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 115,
+        "price": 105,
         "origin": "EDI",
         "destination": "DUB",
         "dep": "2027-07-19 19:10",
         "arr": "2027-07-19 20:15",
         "airline": "Ryanair",
         "flight_numbers": "FR 809"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 116,
+        "origin": "EDI",
+        "destination": "DUB",
+        "dep": "2027-07-19 07:55",
+        "arr": "2027-07-19 09:00",
+        "airline": "Ryanair",
+        "flight_numbers": "FR 817"
       },
       {
         "tag": "euro_ret",
@@ -5326,7 +5326,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 123,
+        "price": 124,
         "origin": "GLA",
         "destination": "DUB",
         "dep": "2027-07-19 15:55",
@@ -5336,7 +5336,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 126,
+        "price": 127,
         "origin": "EDI",
         "destination": "DUB",
         "dep": "2027-07-19 12:25",
@@ -5346,7 +5346,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 127,
+        "price": 128,
         "origin": "EDI",
         "destination": "DUB",
         "dep": "2027-07-19 17:40",
@@ -5356,7 +5356,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 135,
+        "price": 136,
         "origin": "GLA",
         "destination": "DUB",
         "dep": "2027-07-19 09:35",
@@ -5366,7 +5366,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 135,
+        "price": 136,
         "origin": "GLA",
         "destination": "DUB",
         "dep": "2027-07-19 13:20",
@@ -5376,7 +5376,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 156,
+        "price": 157,
         "origin": "EDI",
         "destination": "DUB",
         "dep": "2027-07-19 10:30",
@@ -5386,7 +5386,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 156,
+        "price": 157,
         "origin": "EDI",
         "destination": "LHR",
         "dep": "2027-07-19 15:10",
@@ -5396,27 +5396,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 166,
-        "origin": "EDI",
-        "destination": "LHR",
-        "dep": "2027-07-19 09:00",
-        "arr": "2027-07-19 10:35",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1437"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 172,
-        "origin": "EDI",
-        "destination": "DUB",
-        "dep": "2027-07-19 08:35",
-        "arr": "2027-07-19 09:50",
-        "airline": "Aer Lingus",
-        "flight_numbers": "EI 3251"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 172,
+        "price": 173,
         "origin": "EDI",
         "destination": "DUB",
         "dep": "2027-07-19 15:30",
@@ -5426,77 +5406,7 @@
       },
       {
         "tag": "euro_ret",
-        "price": 178,
-        "origin": "EDI",
-        "destination": "LHR",
-        "dep": "2027-07-19 10:05",
-        "arr": "2027-07-19 11:40",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1439"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 183,
-        "origin": "GLA",
-        "destination": "DUB",
-        "dep": "2027-07-19 08:35",
-        "arr": "2027-07-19 09:50",
-        "airline": "Aer Lingus",
-        "flight_numbers": "EI 3221"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 183,
-        "origin": "GLA",
-        "destination": "DUB",
-        "dep": "2027-07-19 12:00",
-        "arr": "2027-07-19 13:15",
-        "airline": "Aer Lingus",
-        "flight_numbers": "EI 3223"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 191,
-        "origin": "EDI",
-        "destination": "DUB",
-        "dep": "2027-07-19 09:10",
-        "arr": "2027-07-19 10:30",
-        "airline": "Aer Lingus",
-        "flight_numbers": "EI 3551"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 191,
-        "origin": "EDI",
-        "destination": "DUB",
-        "dep": "2027-07-19 09:40",
-        "arr": "2027-07-19 10:55",
-        "airline": "Aer Lingus",
-        "flight_numbers": "EI 3553"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 191,
-        "origin": "EDI",
-        "destination": "DUB",
-        "dep": "2027-07-19 11:10",
-        "arr": "2027-07-19 12:25",
-        "airline": "Aer Lingus",
-        "flight_numbers": "EI 3555"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 191,
-        "origin": "EDI",
-        "destination": "DUB",
-        "dep": "2027-07-19 12:15",
-        "arr": "2027-07-19 13:35",
-        "airline": "Aer Lingus",
-        "flight_numbers": "EI 3253"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 192,
+        "price": 177,
         "origin": "EDI",
         "destination": "LHR",
         "dep": "2027-07-19 16:35",
@@ -5506,7 +5416,107 @@
       },
       {
         "tag": "euro_ret",
-        "price": 212,
+        "price": 180,
+        "origin": "EDI",
+        "destination": "LHR",
+        "dep": "2027-07-19 09:00",
+        "arr": "2027-07-19 10:35",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1437"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 184,
+        "origin": "GLA",
+        "destination": "DUB",
+        "dep": "2027-07-19 08:35",
+        "arr": "2027-07-19 09:50",
+        "airline": "Aer Lingus",
+        "flight_numbers": "EI 3221"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 184,
+        "origin": "GLA",
+        "destination": "DUB",
+        "dep": "2027-07-19 12:00",
+        "arr": "2027-07-19 13:15",
+        "airline": "Aer Lingus",
+        "flight_numbers": "EI 3223"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 192,
+        "origin": "EDI",
+        "destination": "DUB",
+        "dep": "2027-07-19 08:35",
+        "arr": "2027-07-19 09:50",
+        "airline": "Aer Lingus",
+        "flight_numbers": "EI 3251"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 192,
+        "origin": "EDI",
+        "destination": "DUB",
+        "dep": "2027-07-19 09:10",
+        "arr": "2027-07-19 10:30",
+        "airline": "Aer Lingus",
+        "flight_numbers": "EI 3551"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 192,
+        "origin": "EDI",
+        "destination": "DUB",
+        "dep": "2027-07-19 09:40",
+        "arr": "2027-07-19 10:55",
+        "airline": "Aer Lingus",
+        "flight_numbers": "EI 3553"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 192,
+        "origin": "EDI",
+        "destination": "DUB",
+        "dep": "2027-07-19 11:10",
+        "arr": "2027-07-19 12:25",
+        "airline": "Aer Lingus",
+        "flight_numbers": "EI 3555"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 192,
+        "origin": "EDI",
+        "destination": "DUB",
+        "dep": "2027-07-19 12:15",
+        "arr": "2027-07-19 13:35",
+        "airline": "Aer Lingus",
+        "flight_numbers": "EI 3253"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 193,
+        "origin": "EDI",
+        "destination": "LHR",
+        "dep": "2027-07-19 10:05",
+        "arr": "2027-07-19 11:40",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1439"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 199,
+        "origin": "EDI",
+        "destination": "LHR",
+        "dep": "2027-07-19 13:20",
+        "arr": "2027-07-19 14:55",
+        "airline": "British Airways",
+        "flight_numbers": "BA 1447"
+      },
+      {
+        "tag": "euro_ret",
+        "price": 213,
         "origin": "EDI",
         "destination": "LHR",
         "dep": "2027-07-19 11:25",
@@ -5516,43 +5526,13 @@
       },
       {
         "tag": "euro_ret",
-        "price": 219,
+        "price": 220,
         "origin": "EDI",
         "destination": "DUB",
         "dep": "2027-07-19 13:25",
         "arr": "2027-07-19 14:40",
         "airline": "Aer Lingus",
         "flight_numbers": "EI 3255"
-      },
-      {
-        "tag": "euro_ret",
-        "price": 257,
-        "origin": "EDI",
-        "destination": "LHR",
-        "dep": "2027-07-19 13:20",
-        "arr": "2027-07-19 14:55",
-        "airline": "British Airways",
-        "flight_numbers": "BA 1447"
-      },
-      {
-        "tag": "us_out",
-        "price": 189,
-        "origin": "RDU",
-        "destination": "EWR",
-        "dep": "2027-07-09 09:20",
-        "arr": "2027-07-09 10:57",
-        "airline": "United",
-        "flight_numbers": "UA 2674"
-      },
-      {
-        "tag": "us_out",
-        "price": 189,
-        "origin": "RDU",
-        "destination": "EWR",
-        "dep": "2027-07-09 12:30",
-        "arr": "2027-07-09 14:20",
-        "airline": "Delta",
-        "flight_numbers": "DL 5273"
       },
       {
         "tag": "us_out",
@@ -5576,17 +5556,27 @@
       },
       {
         "tag": "us_out",
-        "price": 224,
+        "price": 205,
         "origin": "RDU",
-        "destination": "JFK",
-        "dep": "2027-07-09 11:00",
-        "arr": "2027-07-09 12:36",
-        "airline": "JetBlue",
-        "flight_numbers": "B6 2786"
+        "destination": "PHL",
+        "dep": "2027-07-09 17:22",
+        "arr": "2027-07-09 19:01",
+        "airline": "American",
+        "flight_numbers": "AA 2510"
       },
       {
         "tag": "us_out",
-        "price": 189,
+        "price": 227,
+        "origin": "RDU",
+        "destination": "IAD",
+        "dep": "2027-07-09 10:21",
+        "arr": "2027-07-09 11:34",
+        "airline": "United",
+        "flight_numbers": "UA 1535"
+      },
+      {
+        "tag": "us_out",
+        "price": 199,
         "origin": "RDU",
         "destination": "JFK",
         "dep": "2027-07-09 05:39",
@@ -5596,7 +5586,7 @@
       },
       {
         "tag": "us_out",
-        "price": 189,
+        "price": 199,
         "origin": "RDU",
         "destination": "EWR",
         "dep": "2027-07-09 06:15",
@@ -5606,7 +5596,27 @@
       },
       {
         "tag": "us_out",
-        "price": 189,
+        "price": 199,
+        "origin": "RDU",
+        "destination": "JFK",
+        "dep": "2027-07-09 07:10",
+        "arr": "2027-07-09 09:00",
+        "airline": "Delta",
+        "flight_numbers": "DL 5239"
+      },
+      {
+        "tag": "us_out",
+        "price": 199,
+        "origin": "RDU",
+        "destination": "EWR",
+        "dep": "2027-07-09 09:20",
+        "arr": "2027-07-09 10:57",
+        "airline": "United",
+        "flight_numbers": "UA 794"
+      },
+      {
+        "tag": "us_out",
+        "price": 199,
         "origin": "RDU",
         "destination": "JFK",
         "dep": "2027-07-09 12:08",
@@ -5616,7 +5626,17 @@
       },
       {
         "tag": "us_out",
-        "price": 189,
+        "price": 199,
+        "origin": "RDU",
+        "destination": "EWR",
+        "dep": "2027-07-09 12:30",
+        "arr": "2027-07-09 14:20",
+        "airline": "Delta",
+        "flight_numbers": "DL 5273"
+      },
+      {
+        "tag": "us_out",
+        "price": 199,
         "origin": "RDU",
         "destination": "EWR",
         "dep": "2027-07-09 17:30",
@@ -5626,7 +5646,7 @@
       },
       {
         "tag": "us_out",
-        "price": 189,
+        "price": 199,
         "origin": "RDU",
         "destination": "EWR",
         "dep": "2027-07-09 18:00",
@@ -5636,7 +5656,7 @@
       },
       {
         "tag": "us_out",
-        "price": 189,
+        "price": 199,
         "origin": "RDU",
         "destination": "EWR",
         "dep": "2027-07-09 19:00",
@@ -5646,7 +5666,7 @@
       },
       {
         "tag": "us_out",
-        "price": 189,
+        "price": 199,
         "origin": "RDU",
         "destination": "JFK",
         "dep": "2027-07-09 20:02",
@@ -5682,7 +5702,7 @@
         "dep": "2027-07-09 08:00",
         "arr": "2027-07-09 09:26",
         "airline": "United",
-        "flight_numbers": "UA 2826"
+        "flight_numbers": "UA 2384"
       },
       {
         "tag": "us_out",
@@ -5779,30 +5799,10 @@
         "price": 205,
         "origin": "RDU",
         "destination": "PHL",
-        "dep": "2027-07-09 17:22",
-        "arr": "2027-07-09 19:01",
-        "airline": "American",
-        "flight_numbers": "AA 2510"
-      },
-      {
-        "tag": "us_out",
-        "price": 205,
-        "origin": "RDU",
-        "destination": "PHL",
         "dep": "2027-07-09 19:41",
         "arr": "2027-07-09 21:20",
         "airline": "American",
         "flight_numbers": "AA 5590"
-      },
-      {
-        "tag": "us_out",
-        "price": 219,
-        "origin": "RDU",
-        "destination": "JFK",
-        "dep": "2027-07-09 07:10",
-        "arr": "2027-07-09 09:00",
-        "airline": "Delta",
-        "flight_numbers": "DL 5239"
       },
       {
         "tag": "us_out",
@@ -5823,16 +5823,6 @@
         "arr": "2027-07-09 08:15",
         "airline": "Delta",
         "flight_numbers": "DL 1192"
-      },
-      {
-        "tag": "us_out",
-        "price": 224,
-        "origin": "RDU",
-        "destination": "JFK",
-        "dep": "2027-07-09 06:50",
-        "arr": "2027-07-09 08:30",
-        "airline": "JetBlue",
-        "flight_numbers": "B6 286"
       },
       {
         "tag": "us_out",
@@ -5928,16 +5918,6 @@
         "tag": "us_out",
         "price": 224,
         "origin": "RDU",
-        "destination": "JFK",
-        "dep": "2027-07-09 17:50",
-        "arr": "2027-07-09 19:30",
-        "airline": "JetBlue",
-        "flight_numbers": "B6 2286"
-      },
-      {
-        "tag": "us_out",
-        "price": 224,
-        "origin": "RDU",
         "destination": "ATL",
         "dep": "2027-07-09 18:30",
         "arr": "2027-07-09 20:09",
@@ -5969,16 +5949,6 @@
         "price": 227,
         "origin": "RDU",
         "destination": "IAD",
-        "dep": "2027-07-09 10:21",
-        "arr": "2027-07-09 11:34",
-        "airline": "United",
-        "flight_numbers": "UA 1535"
-      },
-      {
-        "tag": "us_out",
-        "price": 227,
-        "origin": "RDU",
-        "destination": "IAD",
         "dep": "2027-07-09 19:51",
         "arr": "2027-07-09 20:55",
         "airline": "United",
@@ -5988,41 +5958,31 @@
         "tag": "us_out",
         "price": 234,
         "origin": "RDU",
-        "destination": "BOS",
-        "dep": "2027-07-09 06:00",
-        "arr": "2027-07-09 07:59",
+        "destination": "JFK",
+        "dep": "2027-07-09 06:50",
+        "arr": "2027-07-09 08:30",
         "airline": "JetBlue",
-        "flight_numbers": "B6 1484"
+        "flight_numbers": "B6 286"
       },
       {
         "tag": "us_out",
         "price": 234,
         "origin": "RDU",
-        "destination": "BOS",
+        "destination": "JFK",
         "dep": "2027-07-09 11:00",
-        "arr": "2027-07-09 12:54",
+        "arr": "2027-07-09 12:36",
         "airline": "JetBlue",
-        "flight_numbers": "B6 484"
+        "flight_numbers": "B6 2786"
       },
       {
         "tag": "us_out",
         "price": 234,
         "origin": "RDU",
-        "destination": "BOS",
-        "dep": "2027-07-09 17:00",
-        "arr": "2027-07-09 19:00",
+        "destination": "JFK",
+        "dep": "2027-07-09 17:50",
+        "arr": "2027-07-09 19:30",
         "airline": "JetBlue",
-        "flight_numbers": "B6 2184"
-      },
-      {
-        "tag": "us_out",
-        "price": 234,
-        "origin": "RDU",
-        "destination": "BOS",
-        "dep": "2027-07-09 19:55",
-        "arr": "2027-07-09 21:57",
-        "airline": "Delta",
-        "flight_numbers": "DL 2393"
+        "flight_numbers": "B6 2286"
       },
       {
         "tag": "us_out",
@@ -6036,47 +5996,7 @@
       },
       {
         "tag": "us_out",
-        "price": 248,
-        "origin": "RDU",
-        "destination": "ORD",
-        "dep": "2027-07-09 12:45",
-        "arr": "2027-07-09 14:13",
-        "airline": "United",
-        "flight_numbers": "UA 3578"
-      },
-      {
-        "tag": "us_out",
-        "price": 259,
-        "origin": "RDU",
-        "destination": "EWR",
-        "dep": "2027-07-09 07:00",
-        "arr": "2027-07-09 08:46",
-        "airline": "Delta",
-        "flight_numbers": "DL 5120"
-      },
-      {
-        "tag": "us_out",
-        "price": 259,
-        "origin": "RDU",
-        "destination": "JFK",
-        "dep": "2027-07-09 10:00",
-        "arr": "2027-07-09 11:41",
-        "airline": "Delta",
-        "flight_numbers": "DL 5294"
-      },
-      {
-        "tag": "us_out",
-        "price": 259,
-        "origin": "RDU",
-        "destination": "JFK",
-        "dep": "2027-07-09 18:59",
-        "arr": "2027-07-09 20:56",
-        "airline": "Delta",
-        "flight_numbers": "DL 5219"
-      },
-      {
-        "tag": "us_out",
-        "price": 274,
+        "price": 242,
         "origin": "RDU",
         "destination": "EWR",
         "dep": "2027-07-09 11:20",
@@ -6086,7 +6006,77 @@
       },
       {
         "tag": "us_out",
-        "price": 309,
+        "price": 244,
+        "origin": "RDU",
+        "destination": "BOS",
+        "dep": "2027-07-09 06:00",
+        "arr": "2027-07-09 07:59",
+        "airline": "JetBlue",
+        "flight_numbers": "B6 1484"
+      },
+      {
+        "tag": "us_out",
+        "price": 244,
+        "origin": "RDU",
+        "destination": "BOS",
+        "dep": "2027-07-09 11:00",
+        "arr": "2027-07-09 12:54",
+        "airline": "JetBlue",
+        "flight_numbers": "B6 484"
+      },
+      {
+        "tag": "us_out",
+        "price": 244,
+        "origin": "RDU",
+        "destination": "BOS",
+        "dep": "2027-07-09 17:00",
+        "arr": "2027-07-09 19:00",
+        "airline": "JetBlue",
+        "flight_numbers": "B6 2184"
+      },
+      {
+        "tag": "us_out",
+        "price": 244,
+        "origin": "RDU",
+        "destination": "BOS",
+        "dep": "2027-07-09 19:55",
+        "arr": "2027-07-09 21:57",
+        "airline": "Delta",
+        "flight_numbers": "DL 2393"
+      },
+      {
+        "tag": "us_out",
+        "price": 249,
+        "origin": "RDU",
+        "destination": "JFK",
+        "dep": "2027-07-09 10:00",
+        "arr": "2027-07-09 11:41",
+        "airline": "Delta",
+        "flight_numbers": "DL 5294"
+      },
+      {
+        "tag": "us_out",
+        "price": 249,
+        "origin": "RDU",
+        "destination": "JFK",
+        "dep": "2027-07-09 18:59",
+        "arr": "2027-07-09 20:56",
+        "airline": "Delta",
+        "flight_numbers": "DL 5219"
+      },
+      {
+        "tag": "us_out",
+        "price": 250,
+        "origin": "RDU",
+        "destination": "ORD",
+        "dep": "2027-07-09 12:45",
+        "arr": "2027-07-09 14:13",
+        "airline": "United",
+        "flight_numbers": "UA 3578"
+      },
+      {
+        "tag": "us_out",
+        "price": 269,
         "origin": "RDU",
         "destination": "BOS",
         "dep": "2027-07-09 06:50",
@@ -6096,7 +6086,17 @@
       },
       {
         "tag": "us_out",
-        "price": 309,
+        "price": 269,
+        "origin": "RDU",
+        "destination": "EWR",
+        "dep": "2027-07-09 07:00",
+        "arr": "2027-07-09 08:46",
+        "airline": "Delta",
+        "flight_numbers": "DL 5120"
+      },
+      {
+        "tag": "us_out",
+        "price": 269,
         "origin": "RDU",
         "destination": "BOS",
         "dep": "2027-07-09 10:35",
@@ -6106,7 +6106,7 @@
       },
       {
         "tag": "us_out",
-        "price": 309,
+        "price": 269,
         "origin": "RDU",
         "destination": "BOS",
         "dep": "2027-07-09 17:00",
@@ -6116,13 +6116,23 @@
       },
       {
         "tag": "us_out",
-        "price": 369,
+        "price": 319,
         "origin": "RDU",
         "destination": "BOS",
         "dep": "2027-07-09 13:00",
         "arr": "2027-07-09 15:00",
         "airline": "Delta",
         "flight_numbers": "DL 1033"
+      },
+      {
+        "tag": "us_out",
+        "price": 354,
+        "origin": "RDU",
+        "destination": "EWR",
+        "dep": "2027-07-09 15:15",
+        "arr": "2027-07-09 16:52",
+        "airline": "United",
+        "flight_numbers": "UA 1611"
       },
       {
         "tag": "us_out",
@@ -6143,16 +6153,6 @@
         "arr": "2027-07-09 16:50",
         "airline": "American",
         "flight_numbers": "AA 5638"
-      },
-      {
-        "tag": "us_out",
-        "price": 438,
-        "origin": "RDU",
-        "destination": "EWR",
-        "dep": "2027-07-09 15:15",
-        "arr": "2027-07-09 16:52",
-        "airline": "United",
-        "flight_numbers": "UA 1611"
       },
       {
         "tag": "us_out",
@@ -6246,7 +6246,7 @@
       },
       {
         "tag": "us_out",
-        "price": 559,
+        "price": 519,
         "origin": "RDU",
         "destination": "JFK",
         "dep": "2027-07-09 14:00",
@@ -6266,17 +6266,17 @@
       },
       {
         "tag": "us_ret",
-        "price": 224,
-        "origin": "ATL",
+        "price": 234,
+        "origin": "JFK",
         "destination": "RDU",
-        "dep": "2027-07-19 14:15",
-        "arr": "2027-07-19 15:37",
-        "airline": "Delta",
-        "flight_numbers": "DL 1550"
+        "dep": "2027-07-19 14:59",
+        "arr": "2027-07-19 16:47",
+        "airline": "JetBlue",
+        "flight_numbers": "B6 2785"
       },
       {
         "tag": "us_ret",
-        "price": 241,
+        "price": 239,
         "origin": "IAD",
         "destination": "RDU",
         "dep": "2027-07-19 12:46",
@@ -6286,7 +6286,7 @@
       },
       {
         "tag": "us_ret",
-        "price": 189,
+        "price": 199,
         "origin": "JFK",
         "destination": "RDU",
         "dep": "2027-07-19 13:30",
@@ -6296,7 +6296,17 @@
       },
       {
         "tag": "us_ret",
-        "price": 189,
+        "price": 199,
+        "origin": "EWR",
+        "destination": "RDU",
+        "dep": "2027-07-19 16:40",
+        "arr": "2027-07-19 18:25",
+        "airline": "United",
+        "flight_numbers": "UA 1407"
+      },
+      {
+        "tag": "us_ret",
+        "price": 199,
         "origin": "EWR",
         "destination": "RDU",
         "dep": "2027-07-19 19:55",
@@ -6306,7 +6316,7 @@
       },
       {
         "tag": "us_ret",
-        "price": 189,
+        "price": 199,
         "origin": "JFK",
         "destination": "RDU",
         "dep": "2027-07-19 20:00",
@@ -6316,7 +6326,7 @@
       },
       {
         "tag": "us_ret",
-        "price": 189,
+        "price": 199,
         "origin": "EWR",
         "destination": "RDU",
         "dep": "2027-07-19 21:44",
@@ -6326,7 +6336,7 @@
       },
       {
         "tag": "us_ret",
-        "price": 189,
+        "price": 199,
         "origin": "JFK",
         "destination": "RDU",
         "dep": "2027-07-19 22:00",
@@ -6363,16 +6373,6 @@
         "arr": "2027-07-19 12:49",
         "airline": "American",
         "flight_numbers": "AA 4756"
-      },
-      {
-        "tag": "us_ret",
-        "price": 204,
-        "origin": "EWR",
-        "destination": "RDU",
-        "dep": "2027-07-19 16:40",
-        "arr": "2027-07-19 18:25",
-        "airline": "United",
-        "flight_numbers": "UA 1407"
       },
       {
         "tag": "us_ret",
@@ -6469,10 +6469,30 @@
         "price": 219,
         "origin": "ORD",
         "destination": "RDU",
+        "dep": "2027-07-19 11:05",
+        "arr": "2027-07-19 14:04",
+        "airline": "United",
+        "flight_numbers": "UA 2616"
+      },
+      {
+        "tag": "us_ret",
+        "price": 219,
+        "origin": "ORD",
+        "destination": "RDU",
         "dep": "2027-07-19 14:15",
         "arr": "2027-07-19 17:09",
         "airline": "United",
         "flight_numbers": "UA 2091"
+      },
+      {
+        "tag": "us_ret",
+        "price": 219,
+        "origin": "ORD",
+        "destination": "RDU",
+        "dep": "2027-07-19 15:40",
+        "arr": "2027-07-19 19:00",
+        "airline": "United",
+        "flight_numbers": "UA 3658"
       },
       {
         "tag": "us_ret",
@@ -6513,6 +6533,16 @@
         "arr": "2027-07-19 13:54",
         "airline": "Delta",
         "flight_numbers": "DL 3209"
+      },
+      {
+        "tag": "us_ret",
+        "price": 224,
+        "origin": "ATL",
+        "destination": "RDU",
+        "dep": "2027-07-19 14:15",
+        "arr": "2027-07-19 15:37",
+        "airline": "Delta",
+        "flight_numbers": "DL 1550"
       },
       {
         "tag": "us_ret",
@@ -6592,7 +6622,7 @@
         "dep": "2027-07-19 08:30",
         "arr": "2027-07-19 09:39",
         "airline": "United",
-        "flight_numbers": "UA 1840"
+        "flight_numbers": "UA 2772"
       },
       {
         "tag": "us_ret",
@@ -6616,47 +6646,7 @@
       },
       {
         "tag": "us_ret",
-        "price": 229,
-        "origin": "ORD",
-        "destination": "RDU",
-        "dep": "2027-07-19 11:05",
-        "arr": "2027-07-19 14:04",
-        "airline": "United",
-        "flight_numbers": "UA 2616"
-      },
-      {
-        "tag": "us_ret",
-        "price": 229,
-        "origin": "ORD",
-        "destination": "RDU",
-        "dep": "2027-07-19 15:40",
-        "arr": "2027-07-19 19:00",
-        "airline": "United",
-        "flight_numbers": "UA 3658"
-      },
-      {
-        "tag": "us_ret",
         "price": 234,
-        "origin": "BOS",
-        "destination": "RDU",
-        "dep": "2027-07-19 07:05",
-        "arr": "2027-07-19 09:21",
-        "airline": "Delta",
-        "flight_numbers": "DL 2066"
-      },
-      {
-        "tag": "us_ret",
-        "price": 236,
-        "origin": "EWR",
-        "destination": "RDU",
-        "dep": "2027-07-19 20:15",
-        "arr": "2027-07-19 21:55",
-        "airline": "United",
-        "flight_numbers": "UA 2359"
-      },
-      {
-        "tag": "us_ret",
-        "price": 239,
         "origin": "JFK",
         "destination": "RDU",
         "dep": "2027-07-19 08:23",
@@ -6666,13 +6656,33 @@
       },
       {
         "tag": "us_ret",
-        "price": 239,
+        "price": 234,
+        "origin": "EWR",
+        "destination": "RDU",
+        "dep": "2027-07-19 14:37",
+        "arr": "2027-07-19 16:18",
+        "airline": "United",
+        "flight_numbers": "UA 2485"
+      },
+      {
+        "tag": "us_ret",
+        "price": 234,
+        "origin": "EWR",
+        "destination": "RDU",
+        "dep": "2027-07-19 20:15",
+        "arr": "2027-07-19 21:55",
+        "airline": "United",
+        "flight_numbers": "UA 2359"
+      },
+      {
+        "tag": "us_ret",
+        "price": 234,
         "origin": "JFK",
         "destination": "RDU",
-        "dep": "2027-07-19 14:59",
-        "arr": "2027-07-19 16:47",
+        "dep": "2027-07-19 20:30",
+        "arr": "2027-07-19 22:32",
         "airline": "JetBlue",
-        "flight_numbers": "B6 2785"
+        "flight_numbers": "B6 185"
       },
       {
         "tag": "us_ret",
@@ -6696,17 +6706,17 @@
       },
       {
         "tag": "us_ret",
-        "price": 239,
-        "origin": "JFK",
+        "price": 244,
+        "origin": "BOS",
         "destination": "RDU",
-        "dep": "2027-07-19 20:30",
-        "arr": "2027-07-19 22:32",
-        "airline": "JetBlue",
-        "flight_numbers": "B6 185"
+        "dep": "2027-07-19 07:05",
+        "arr": "2027-07-19 09:21",
+        "airline": "Delta",
+        "flight_numbers": "DL 2066"
       },
       {
         "tag": "us_ret",
-        "price": 249,
+        "price": 244,
         "origin": "BOS",
         "destination": "RDU",
         "dep": "2027-07-19 08:00",
@@ -6716,7 +6726,7 @@
       },
       {
         "tag": "us_ret",
-        "price": 249,
+        "price": 244,
         "origin": "BOS",
         "destination": "RDU",
         "dep": "2027-07-19 14:00",
@@ -6726,7 +6736,7 @@
       },
       {
         "tag": "us_ret",
-        "price": 249,
+        "price": 244,
         "origin": "BOS",
         "destination": "RDU",
         "dep": "2027-07-19 20:54",
@@ -6736,23 +6746,23 @@
       },
       {
         "tag": "us_ret",
-        "price": 254,
-        "origin": "ATL",
-        "destination": "RDU",
-        "dep": "2027-07-19 09:50",
-        "arr": "2027-07-19 11:16",
-        "airline": "Delta",
-        "flight_numbers": "DL 2052"
-      },
-      {
-        "tag": "us_ret",
-        "price": 259,
+        "price": 249,
         "origin": "JFK",
         "destination": "RDU",
         "dep": "2027-07-19 07:55",
         "arr": "2027-07-19 09:50",
         "airline": "Delta",
         "flight_numbers": "DL 5097"
+      },
+      {
+        "tag": "us_ret",
+        "price": 249,
+        "origin": "JFK",
+        "destination": "RDU",
+        "dep": "2027-07-19 16:05",
+        "arr": "2027-07-19 18:02",
+        "airline": "Delta",
+        "flight_numbers": "DL 5150"
       },
       {
         "tag": "us_ret",
@@ -6776,33 +6786,53 @@
       },
       {
         "tag": "us_ret",
-        "price": 259,
-        "origin": "JFK",
-        "destination": "RDU",
-        "dep": "2027-07-19 16:05",
-        "arr": "2027-07-19 18:02",
-        "airline": "Delta",
-        "flight_numbers": "DL 5150"
-      },
-      {
-        "tag": "us_ret",
-        "price": 274,
-        "origin": "EWR",
-        "destination": "RDU",
-        "dep": "2027-07-19 14:37",
-        "arr": "2027-07-19 16:18",
-        "airline": "United",
-        "flight_numbers": "UA 2485"
-      },
-      {
-        "tag": "us_ret",
-        "price": 309,
+        "price": 269,
         "origin": "BOS",
         "destination": "RDU",
         "dep": "2027-07-19 10:00",
         "arr": "2027-07-19 12:11",
         "airline": "Delta",
         "flight_numbers": "DL 2782"
+      },
+      {
+        "tag": "us_ret",
+        "price": 269,
+        "origin": "BOS",
+        "destination": "RDU",
+        "dep": "2027-07-19 16:50",
+        "arr": "2027-07-19 19:04",
+        "airline": "Delta",
+        "flight_numbers": "DL 2772"
+      },
+      {
+        "tag": "us_ret",
+        "price": 269,
+        "origin": "IAD",
+        "destination": "RDU",
+        "dep": "2027-07-19 17:45",
+        "arr": "2027-07-19 18:58",
+        "airline": "United",
+        "flight_numbers": "UA 2344"
+      },
+      {
+        "tag": "us_ret",
+        "price": 269,
+        "origin": "BOS",
+        "destination": "RDU",
+        "dep": "2027-07-19 19:55",
+        "arr": "2027-07-19 22:07",
+        "airline": "Delta",
+        "flight_numbers": "DL 817"
+      },
+      {
+        "tag": "us_ret",
+        "price": 279,
+        "origin": "ATL",
+        "destination": "RDU",
+        "dep": "2027-07-19 09:50",
+        "arr": "2027-07-19 11:16",
+        "airline": "Delta",
+        "flight_numbers": "DL 2052"
       },
       {
         "tag": "us_ret",
@@ -6817,16 +6847,6 @@
       {
         "tag": "us_ret",
         "price": 309,
-        "origin": "BOS",
-        "destination": "RDU",
-        "dep": "2027-07-19 19:55",
-        "arr": "2027-07-19 22:07",
-        "airline": "Delta",
-        "flight_numbers": "DL 817"
-      },
-      {
-        "tag": "us_ret",
-        "price": 309,
         "origin": "JFK",
         "destination": "RDU",
         "dep": "2027-07-19 20:30",
@@ -6836,27 +6856,7 @@
       },
       {
         "tag": "us_ret",
-        "price": 339,
-        "origin": "IAD",
-        "destination": "RDU",
-        "dep": "2027-07-19 17:45",
-        "arr": "2027-07-19 18:58",
-        "airline": "United",
-        "flight_numbers": "UA 2344"
-      },
-      {
-        "tag": "us_ret",
-        "price": 354,
-        "origin": "EWR",
-        "destination": "RDU",
-        "dep": "2027-07-19 07:00",
-        "arr": "2027-07-19 08:53",
-        "airline": "United",
-        "flight_numbers": "UA 411"
-      },
-      {
-        "tag": "us_ret",
-        "price": 369,
+        "price": 319,
         "origin": "BOS",
         "destination": "RDU",
         "dep": "2027-07-19 13:20",
@@ -6866,17 +6866,17 @@
       },
       {
         "tag": "us_ret",
-        "price": 369,
-        "origin": "BOS",
+        "price": 344,
+        "origin": "EWR",
         "destination": "RDU",
-        "dep": "2027-07-19 16:50",
-        "arr": "2027-07-19 19:04",
-        "airline": "Delta",
-        "flight_numbers": "DL 2772"
+        "dep": "2027-07-19 07:00",
+        "arr": "2027-07-19 08:53",
+        "airline": "United",
+        "flight_numbers": "UA 411"
       },
       {
         "tag": "us_ret",
-        "price": 417,
+        "price": 354,
         "origin": "EWR",
         "destination": "RDU",
         "dep": "2027-07-19 11:00",
@@ -6985,7 +6985,7 @@
     "roundtrip|business": 3091
   },
   "good_deal_cpp": {
-    "composite|Outbound RDU -> GLA/EDI|2027-07-09|qatar|economy|RDU|LHR|AA174": 1.71,
+    "composite|Outbound RDU -> GLA/EDI|2027-07-09|qatar|economy|RDU|LHR|AA174": 1.76,
     "composite|Return GLA/EDI -> RDU|2027-07-19|alaska|economy|DUB|RDU|EI85": 3.19
   },
   "history": [
@@ -7691,6 +7691,21 @@
         "roundtrip|economy": 1089,
         "outbound|business": 2421,
         "return|business": 2286,
+        "roundtrip|business": 3503
+      }
+    },
+    {
+      "at": "2026-10-24T14:05:39.790848+00:00",
+      "n_options": 173,
+      "n_new": 0,
+      "n_gone": 0,
+      "n_drops": 0,
+      "cash_lowest": {
+        "outbound|economy": 449,
+        "return|economy": 877,
+        "roundtrip|economy": 1089,
+        "outbound|business": 2421,
+        "return|business": 2285,
         "roundtrip|business": 3503
       }
     }
