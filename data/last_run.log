@@ -1,11 +1,11 @@
-[Outbound RDU -> GLA/EDI] 137 availability rows from cached search
-[Outbound RDU -> GLA/EDI] 95 options pass filters
-[Return GLA/EDI -> RDU] 138 availability rows from cached search
-[Return GLA/EDI -> RDU] 73 options pass filters
+[Outbound RDU -> GLA/EDI] 138 availability rows from cached search
+[Outbound RDU -> GLA/EDI] 90 options pass filters
+[Return GLA/EDI -> RDU] 139 availability rows from cached search
+[Return GLA/EDI -> RDU] 66 options pass filters
 [cash outbound|economy] 10 itineraries; lowest=453
 [cash return|economy] 12 itineraries; lowest=984
-[cash roundtrip|economy] 12 itineraries; lowest=1207
-[cash outbound|business] 9 itineraries; lowest=1974
-[cash return|business] 12 itineraries; lowest=2284
-[cash roundtrip|business] 11 itineraries; lowest=2865
+[cash roundtrip|economy] 10 itineraries; lowest=1219
+[cash outbound|business] 9 itineraries; lowest=1973
+[cash return|business] 12 itineraries; lowest=2283
+[cash roundtrip|business] 10 itineraries; lowest=2865
 [positioning] using cached fares from 2026-11-05
