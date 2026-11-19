@@ -1,16 +1,11 @@
 CHANGES DETECTED
 
-## Points went DOWN
-- Return GLA/EDI -> RDU EDI→JFK flyingblue Economy: 78,600 → 53,000 mi (−25,600)
-- Return GLA/EDI -> RDU EDI→JFK jetblue Economy: 66,500 → 66,400 mi (−100)
-
 ## New options
-- EDI→JFK Mon Jul 19 14:15 → Mon Jul 19 20:55  flyingblue Economy: 53,000 mi + 371 USD, 4 seats, 1 stop, AF1387, AF10
-- EDI→JFK Mon Jul 19 11:10 → Mon Jul 19 19:05  flyingblue Economy: 78,400 mi + 371 USD, 9 seats, 1 stop, KL926, KL643
+- JFK→EDI Fri Jul 9 16:40 → Sat Jul 10 08:30  delta Economy: 61,500 mi + 35 USD, 9 seats, 1 stop, KL642, KL923
+- RDU→LHR Fri Jul 9 20:30 → Sat Jul 10 11:55  alaska Economy: 62,500 mi + 203 USD, 2 seats, 1 stop, FI820, FI450
 
 ## Disappeared since last check
-- BOS→EDI Fri Jul 9 20:15 → Sat Jul 10 12:15  flyingblue Economy: 28,500 mi + 162 USD, 4 seats, 1 stop, KL618, KL927
-- BOS→EDI Fri Jul 9 21:45 → Sat Jul 10 14:15  flyingblue Economy: 47,500 mi + 152 USD, 7 seats, 1 stop, AF63, AF1386
+- JFK→EDI Fri Jul 9 23:30 → Sat Jul 10 16:30  delta Economy: 61,500 mi + 24 USD, 9 seats, 1 stop, AF9, AF1486
 
 ## Points into / out of EDI & GLA
 Single-ticket RDU↔EDI/GLA awards: none in seats.aero's cache (the API can't see live-only results — your seats.aero web alert covers those). Built from award + separate cash hop instead:
@@ -22,20 +17,20 @@ Single-ticket RDU↔EDI/GLA awards: none in seats.aero's cache (the API can't se
 - outbound premium RDU→EDI via JFK: $158 cash RDU→JFK (Fri 12:08→Fri 13:59, AA 4765) + flyingblue 47,000 mi + $240 (JFK→EDI Fri 18:30→Sat 10:40, AF5, AF1686), 4.5h self-transfer
 - outbound premium RDU→EDI via JFK: $158 cash RDU→JFK (Fri 16:35→Fri 18:14, DL 5500) + flyingblue 47,000 mi + $240 (JFK→EDI Fri 21:30→Sat 14:15, AF7, AF1386), 3.3h self-transfer
 - outbound premium RDU→EDI via JFK: $158 cash RDU→JFK (Fri 17:50→Fri 19:30, B6 2286) + flyingblue 47,000 mi + $240 (JFK→EDI Fri 23:30→Sat 16:30, AF9, AF1486), 4.0h self-transfer
-- return economy GLA→RDU via DUB: $65 cash GLA→DUB (Mon 09:05→Mon 10:05, FR 5150) + alaska 27,500 mi + $67 (DUB→RDU Mon 15:30→Mon 18:55, EI85), 5.4h self-transfer → 3.16¢/pt vs $1,000 cash  ★ good deal
-- return economy GLA→RDU via DUB: $65 cash GLA→DUB (Mon 09:05→Mon 10:05, FR 5150) + united 49,000 mi + $47 (DUB→RDU Mon 15:30→Mon 18:55, EI85), 5.4h self-transfer → 1.81¢/pt vs $1,000 cash  ★ good deal
-- return economy EDI→RDU via DUB: $124 cash EDI→DUB (Mon 07:55→Mon 09:00, FR 817) + united 62,600 mi + $52 (DUB→RDU Mon 12:30→Mon 23:33, UA229, UA2382), 3.5h self-transfer → 1.32¢/pt vs $1,000 cash
-- return economy EDI→RDU via LHR: $95 cash EDI→LHR (Mon 06:20→Mon 07:55, BA 1465) + alaska 62,500 mi + $219 (LHR→RDU Mon 12:00→Mon 18:55, EI159, EI85), 4.1h self-transfer → 1.10¢/pt vs $1,000 cash
+- return economy GLA→RDU via DUB: $65 cash GLA→DUB (Mon 09:05→Mon 10:05, FR 5150) + alaska 27,500 mi + $67 (DUB→RDU Mon 15:30→Mon 18:55, EI85), 5.4h self-transfer → 3.14¢/pt vs $995 cash  ★ good deal
+- return economy GLA→RDU via DUB: $65 cash GLA→DUB (Mon 09:05→Mon 10:05, FR 5150) + united 49,000 mi + $47 (DUB→RDU Mon 15:30→Mon 18:55, EI85), 5.4h self-transfer → 1.80¢/pt vs $995 cash  ★ good deal
+- return economy EDI→RDU via DUB: $124 cash EDI→DUB (Mon 07:55→Mon 09:00, FR 817) + united 62,600 mi + $52 (DUB→RDU Mon 12:30→Mon 23:33, UA229, UA2382), 3.5h self-transfer → 1.31¢/pt vs $995 cash
+- return economy EDI→RDU via LHR: $95 cash EDI→LHR (Mon 06:20→Mon 07:55, BA 1465) + alaska 62,500 mi + $219 (LHR→RDU Mon 12:00→Mon 18:55, EI159, EI85), 4.1h self-transfer → 1.09¢/pt vs $995 cash
   Separate tickets: bags are rechecked and a late first flight doesn't protect the second. Heathrow means an AA (T3) → BA (T5) terminal change.
 
 ## Current cash floor (per person, USD, ≤1 stop)
 - outbound|business: $2,452 RDU→GLA 2027-07-09 20:30 → 2027-07-10 13:25, Icelandair, 1 stop via KEF (3.5h), FI 820, FI 432
-- outbound|economy: $463 RDU→EDI 2027-07-09 20:25 → 2027-07-10 19:50, Aer Lingus, 1 stop via DUB (9.8h), EI 84, EI 3258  ⚠ LAYOVER >4h
+- outbound|economy: $462 RDU→EDI 2027-07-09 20:25 → 2027-07-10 19:50, Aer Lingus, 1 stop via DUB (9.8h), EI 84, EI 3258  ⚠ LAYOVER >4h
     cheapest without a long layover: $470 RDU→EDI 2027-07-09 16:00 → 2027-07-10 07:40, Air Canada, 1 stop via YUL (1.9h), AC 8672, AC 936
-- return|business: $2,247 GLA→RDU 2027-07-19 14:20 → 2027-07-20 19:30, Icelandair, 1 stop via KEF (25.0h), FI 431, FI 821  ⚠ LAYOVER >4h
-    cheapest without a long layover: $2,822 GLA→RDU 2027-07-19 14:20 → 2027-07-19 19:30, Icelandair, 1 stop via KEF (1.0h), FI 431, FI 821
-- return|economy: $953 GLA→RDU 2027-07-19 09:35 → 2027-07-19 18:55, Aer Lingus, 1 stop via DUB (4.6h), EI 3523, EI 85  ⚠ LAYOVER >4h
-    cheapest without a long layover: $1,000 GLA→RDU 2027-07-19 12:00 → 2027-07-19 18:55, Aer Lingus, 1 stop via DUB (2.2h), EI 3223, EI 85
-- roundtrip|business: $3,233 RDU→GLA 2027-07-09 20:30 → 2027-07-10 13:25, Icelandair, 1 stop via KEF (3.5h), FI 820, FI 432
+- return|business: $2,238 GLA→RDU 2027-07-19 14:20 → 2027-07-20 19:30, Icelandair, 1 stop via KEF (25.0h), FI 431, FI 821  ⚠ LAYOVER >4h
+    cheapest without a long layover: $2,810 GLA→RDU 2027-07-19 14:20 → 2027-07-19 19:30, Icelandair, 1 stop via KEF (1.0h), FI 431, FI 821
+- return|economy: $948 GLA→RDU 2027-07-19 09:35 → 2027-07-19 18:55, Aer Lingus, 1 stop via DUB (4.6h), EI 3523, EI 85  ⚠ LAYOVER >4h
+    cheapest without a long layover: $995 GLA→RDU 2027-07-19 12:00 → 2027-07-19 18:55, Aer Lingus, 1 stop via DUB (2.2h), EI 3223, EI 85
+- roundtrip|business: $3,232 RDU→GLA 2027-07-09 20:30 → 2027-07-10 13:25, Icelandair, 1 stop via KEF (3.5h), FI 820, FI 432
 - roundtrip|economy: $1,251 RDU→GLA 2027-07-09 15:40 → 2027-07-10 16:10, Discover Airlines/Lufthansa, 1 stop via FRA (9.2h), LH 409, 4Y 1522  ⚠ LAYOVER >4h
     cheapest without a long layover: $1,293 RDU→EDI 2027-07-09 16:40 → 2027-07-10 07:20, Lufthansa, 1 stop via YYZ (1.2h), LH 9549, LH 9455
